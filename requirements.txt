@@ -1,0 +1,6 @@
+requests==2.31.0
+beautifulsoup4==4.12.3
+pandas==2.2.1
+schedule==1.2.1
+python-dotenv==1.0.1
+win10toast==0.9
