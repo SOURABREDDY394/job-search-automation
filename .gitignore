@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Output files (kept in repo for GitHub Actions auto-updates)
+# jobs_found.csv    -- tracked (auto-updated by GitHub Actions)
+# dashboard.html    -- tracked (auto-updated by GitHub Actions)
+# seen_jobs.json    -- tracked (needed for duplicate detection)
+search_log.txt
+task_schedule.xml
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+*.env
+
+# OS
+Thumbs.db
+.DS_Store
