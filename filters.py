@@ -1,0 +1,194 @@
+"""
+Smart Job Filters - Personalized for Sourab's Profile
+======================================================
+1. Matches jobs to YOUR skills (Python, FastAPI, React, RAG, LLM, etc.)
+2. Detects and removes SCAM postings
+3. Prioritizes startups (they hire fast)
+4. Filters for entry-level/intern only
+5. Scores relevance based on skill match
+"""
+
+import re
+from config import (
+    ENTRY_LEVEL_TERMS,
+    EXCLUDE_TERMS,
+    SCAM_INDICATORS,
+    STARTUP_SIGNALS,
+    MY_SKILLS,
+)
+
+
+def filter_jobs(jobs):
+    """
+    Full filtering pipeline:
+    1. Remove scams
+    2. Remove senior roles
+    3. Score by skill match
+    4. Prioritize startups
+    5. Sort by relevance
+    """
+    filtered = []
+    scam_count = 0
+    senior_count = 0
+
+    for job in jobs:
+        title = job.get("title", "").lower()
+        company = job.get("company", "").lower()
+        tags = job.get("tags", "").lower()
+        link = job.get("link", "").lower()
+
+        all_text = f"{title} {company} {tags}"
+
+        # === SCAM CHECK ===
+        if is_scam(all_text, link, job):
+            scam_count += 1
+            continue
+
+        # === EXCLUDE SENIOR ROLES ===
+        if any(term in title for term in EXCLUDE_TERMS):
+            # Exception: keep if "intern" is explicitly in title
+            if "intern" not in title:
+                senior_count += 1
+                continue
+
+        # === QUALITY CHECK ===
+        if len(job.get("title", "")) < 5:
+            continue
+        if job.get("company", "N/A") in ("N/A", "", "Unknown"):
+            continue
+
+        # === SCORING ===
+        job["skill_match_score"] = calculate_skill_match(all_text)
+        job["is_entry_level"] = any(term in all_text for term in ENTRY_LEVEL_TERMS)
+        job["is_startup"] = is_startup(all_text)
+        job["relevance_score"] = calculate_relevance(job)
+        job["scam_safe"] = True
+
+        filtered.append(job)
+
+    # Sort: entry-level first, then by relevance score
+    filtered.sort(
+        key=lambda x: (
+            x.get("is_entry_level", False),
+            x.get("relevance_score", 0),
+        ),
+        reverse=True,
+    )
+
+    if scam_count > 0:
+        print(f"  🚫 Removed {scam_count} suspected scam listings")
+    if senior_count > 0:
+        print(f"  ⏭️  Skipped {senior_count} senior/lead roles")
+
+    return filtered
+
+
+def is_scam(text, link, job):
+    """
+    Detect scam job postings using multiple signals.
+    Returns True if likely a scam.
+    """
+    # Check scam keywords
+    for indicator in SCAM_INDICATORS:
+        if indicator in text:
+            return True
+
+    # Suspicious link patterns
+    suspicious_domains = [
+        "bit.ly", "tinyurl", "goo.gl",  # URL shorteners in job links
+        "telegram.me", "t.me",  # Telegram-based "jobs"
+        "wa.me",  # WhatsApp-based recruiting (red flag)
+    ]
+    if any(domain in link for domain in suspicious_domains):
+        return True
+
+    # No company name is suspicious
+    company = job.get("company", "")
+    if len(company) < 2 or company.lower() in ("n/a", "unknown", "hiring", "urgent"):
+        return True
+
+    # Title is all caps (spam signal)
+    title = job.get("title", "")
+    if title == title.upper() and len(title) > 10:
+        return True
+
+    # Extremely high salary for intern (likely scam)
+    salary = job.get("salary_monthly_usd", 0)
+    if salary > 25000 and "intern" in text:
+        return True  # $25k/month for an intern? Scam.
+
+    return False
+
+
+def is_startup(text):
+    """Check if the job is at a startup (they hire faster)."""
+    return any(signal in text for signal in STARTUP_SIGNALS)
+
+
+def calculate_skill_match(text):
+    """
+    Score 0-100 based on how many of YOUR skills match the job.
+    Higher = better fit for you specifically.
+    """
+    matched = 0
+    for skill in MY_SKILLS:
+        if skill in text:
+            matched += 1
+
+    # Normalize to 0-100
+    max_possible = min(len(MY_SKILLS), 15)  # Realistically a job mentions ~15 skills max
+    score = min(int((matched / max_possible) * 100), 100)
+    return score
+
+
+def calculate_relevance(job):
+    """
+    Overall relevance score 0-100.
+    Combines: skill match + entry level + startup + salary + source quality.
+    """
+    score = 0
+    title = job.get("title", "").lower()
+    tags = job.get("tags", "").lower()
+    all_text = f"{title} {tags}"
+
+    # Skill match (0-40 points)
+    skill_score = job.get("skill_match_score", 0)
+    score += int(skill_score * 0.4)
+
+    # Entry level bonus (+20)
+    if job.get("is_entry_level"):
+        score += 20
+
+    # Startup bonus (+10) - they hire fast
+    if job.get("is_startup"):
+        score += 10
+
+    # Salary available (+10)
+    if job.get("salary_monthly_usd", 0) > 0:
+        score += 10
+
+    # AI/ML keyword bonus (+10)
+    ai_terms = ["ai", "machine learning", "llm", "rag", "nlp", "deep learning",
+                "generative", "embeddings", "vector", "langchain", "openai"]
+    if any(term in all_text for term in ai_terms):
+        score += 10
+
+    # Full stack / backend bonus (+5)
+    if any(term in all_text for term in ["full stack", "fullstack", "backend", "fastapi", "python"]):
+        score += 5
+
+    # Source quality bonus
+    source = job.get("source", "")
+    source_bonus = {
+        "HackerNews": 8,      # Highest quality, direct from hiring managers
+        "Remotive": 6,        # Curated, legit companies
+        "WeWorkRemotely": 5,  # Premium board
+        "RemoteOK": 3,        # Good but more volume
+    }
+    score += source_bonus.get(source, 0)
+
+    # Has a real link (+5)
+    if job.get("link") and len(job.get("link", "")) > 10:
+        score += 5
+
+    return min(score, 100)
