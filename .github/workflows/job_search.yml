@@ -1,0 +1,43 @@
+name: Job Search Automation
+
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Manual trigger from GitHub UI
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 pandas schedule
+
+      - name: Run job search
+        run: python job_search.py
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: job-results-${{ github.run_number }}
+          path: |
+            jobs_found.csv
+            dashboard.html
+          retention-days: 30
+
+      - name: Commit results to repo
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add jobs_found.csv dashboard.html seen_jobs.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "🔍 Auto job search results - $(date +'%Y-%m-%d %H:%M')"
+          git push || true
