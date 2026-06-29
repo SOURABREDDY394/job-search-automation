@@ -98,6 +98,7 @@ def is_scam(text, link, job):
         "bit.ly", "tinyurl", "goo.gl",  # URL shorteners in job links
         "telegram.me", "t.me",  # Telegram-based "jobs"
         "wa.me",  # WhatsApp-based recruiting (red flag)
+        "forms.gle",  # Google forms for "applications" (usually scam)
     ]
     if any(domain in link for domain in suspicious_domains):
         return True
