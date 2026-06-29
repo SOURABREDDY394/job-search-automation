@@ -4,6 +4,7 @@ RemoteOK Scraper
 RemoteOK has a public JSON API - no HTML scraping needed.
 Great source for remote tech jobs from US/EU companies.
 Less competition than LinkedIn/Indeed.
+Handles rate limiting and pagination gracefully.
 """
 
 import requests
