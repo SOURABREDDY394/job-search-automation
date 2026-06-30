@@ -112,6 +112,7 @@ def search_hn_hiring(keywords, min_hourly=10):
                     "intern", "junior", "entry", "new grad",
                     "early career", "0-2 year", "0-3 year",
                     "all levels", "any level", "fresh",
+                    "bootcamp", "self-taught", "no degree required",
                 ])
 
                 # Extract company name (usually first line)
