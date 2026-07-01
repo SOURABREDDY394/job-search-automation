@@ -88,6 +88,7 @@ def search_remotive(keywords, min_hourly=10):
                     # Check if location allows India/worldwide
                     location_ok = is_location_ok(candidate_location)
                     if not location_ok:
+                        # Log skipped for debugging
                         continue
 
                     jobs.append({
