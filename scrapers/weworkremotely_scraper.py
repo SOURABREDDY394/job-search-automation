@@ -138,7 +138,7 @@ def is_location_worldwide(region):
     lower = region.lower()
     ok_terms = ["anywhere", "worldwide", "global", "remote", "asia", "india", "international"]
     # Reject US-only or EU-only
-    reject = ["us only", "usa only", "north america only", "europe only", "eu only", "uk only"]
+    reject = ["us only", "usa only", "north america only", "europe only", "eu only", "uk only", "canada only"]
 
     if any(r in lower for r in reject):
         return False
