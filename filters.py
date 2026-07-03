@@ -192,4 +192,8 @@ def calculate_relevance(job):
     if job.get("link") and len(job.get("link", "")) > 10:
         score += 5
 
+    # Penalty for missing company info (-5)
+    if not job.get("company") or job.get("company") == "Unknown":
+        score -= 5
+
     return min(score, 100)
