@@ -163,6 +163,7 @@ def clean_html(text):
     text = re.sub(r"<[^>]+>", "\n", text)
     # Clean up whitespace
     text = re.sub(r"\n+", "\n", text)
+    text = re.sub(r" +", " ", text)
     return text.strip()
 
 
