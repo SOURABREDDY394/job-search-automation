@@ -10,7 +10,7 @@ MY_SKILLS = [
     "postgresql", "supabase", "pgvector", "mysql", "redis",
     "aws", "ec2", "docker", "git", "vercel", "render",
     "rest api", "api", "n8n", "automation",
-    "langchain", "openai", "groq", "ai",
+    "langchain", "openai", "groq", "ai", "tensorflow", "pytorch",
 ]
 
 # === SEARCH KEYWORDS (what you want to find) ===
