@@ -136,13 +136,26 @@ def calculate_skill_match(text):
     Higher = better fit for you specifically.
     """
     matched = 0
+    matched_skills = []
     for skill in MY_SKILLS:
         if skill in text:
             matched += 1
+            matched_skills.append(skill)
 
-    # Normalize to 0-100
-    max_possible = min(len(MY_SKILLS), 15)  # Realistically a job mentions ~15 skills max
-    score = min(int((matched / max_possible) * 100), 100)
+    # Use a lower threshold — a job mentioning 5+ of your skills is great
+    if matched >= 8:
+        score = 100
+    elif matched >= 5:
+        score = 80
+    elif matched >= 3:
+        score = 60
+    elif matched >= 2:
+        score = 40
+    elif matched >= 1:
+        score = 20
+    else:
+        score = 0
+
     return score
 
 

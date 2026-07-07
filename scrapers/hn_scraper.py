@@ -139,7 +139,7 @@ def search_hn_hiring(keywords, min_hourly=10):
                     "location": "Remote",
                     "source": "HackerNews",
                     "link": link,
-                    "tags": "entry-level" if is_entry_friendly else "all-levels",
+                    "tags": extract_tech_tags(clean_text, is_entry_friendly),
                     "date_posted": hiring_thread.get("created_at", "")[:10],
                     "date_found": datetime.now().strftime("%Y-%m-%d %H:%M"),
                 })
@@ -250,3 +250,41 @@ def extract_salary(text):
                 pass
 
     return {"text": "Not specified", "monthly": 0, "type": "Not specified"}
+
+
+def extract_tech_tags(text, is_entry_friendly):
+    """
+    Extract technology keywords from the full HN post.
+    This is critical for skill matching — HN posts mention tech stack
+    in the description, not the title.
+    """
+    text_lower = text.lower()
+
+    # All tech keywords to look for
+    tech_keywords = [
+        "python", "javascript", "typescript", "react", "node",
+        "fastapi", "django", "flask", "express",
+        "aws", "gcp", "azure", "docker", "kubernetes",
+        "postgresql", "postgres", "mysql", "redis", "mongodb",
+        "ai", "machine learning", "ml", "deep learning", "llm",
+        "rag", "nlp", "langchain", "openai", "gpt",
+        "vector", "embeddings", "tensorflow", "pytorch",
+        "full stack", "fullstack", "backend", "frontend",
+        "rest api", "graphql", "microservices",
+        "git", "ci/cd", "devops", "linux",
+        "rust", "go", "golang", "java", "c++",
+        "supabase", "firebase", "vercel",
+    ]
+
+    found_tags = []
+    for keyword in tech_keywords:
+        if keyword in text_lower:
+            found_tags.append(keyword)
+
+    # Add entry-level tag
+    if is_entry_friendly:
+        found_tags.append("entry-level")
+    else:
+        found_tags.append("all-levels")
+
+    return ", ".join(found_tags) if found_tags else "all-levels"

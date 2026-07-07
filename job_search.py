@@ -107,7 +107,7 @@ def run_search():
         all_jobs.extend(jobs)
         print(f"  ✓ {len(jobs)} jobs\n")
     except Exception as e:
-        print(f"  ✗ {e}\n")
+        print(f"  ✗ Skipped: {e}\n")
 
     # 6. Himalayas + Jobicy (hidden gems)
     print("[6/7] Hidden Gems (Himalayas + Jobicy)...")
@@ -193,13 +193,22 @@ def save_results(jobs):
 
     # Append to existing
     if os.path.exists(OUTPUT_FILE):
-        existing = pd.read_csv(OUTPUT_FILE)
-        df = pd.concat([existing, df]).drop_duplicates(
-            subset=["title", "company", "source"], keep="last"
-        )
+        try:
+            existing = pd.read_csv(OUTPUT_FILE)
+            df = pd.concat([existing, df]).drop_duplicates(
+                subset=["title", "company", "source"], keep="last"
+            )
+        except (PermissionError, pd.errors.EmptyDataError):
+            pass
 
-    df.to_csv(OUTPUT_FILE, index=False, encoding="utf-8")
-    print(f"  💾 Saved: {OUTPUT_FILE} ({len(df)} total)")
+    try:
+        df.to_csv(OUTPUT_FILE, index=False, encoding="utf-8")
+        print(f"  💾 Saved: {OUTPUT_FILE} ({len(df)} total)")
+    except PermissionError:
+        # File is open in another app (Excel, etc.)
+        alt_file = "jobs_found_latest.csv"
+        df.to_csv(alt_file, index=False, encoding="utf-8")
+        print(f"  ⚠️  {OUTPUT_FILE} is locked (close Excel). Saved to: {alt_file}")
 
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"[{datetime.now()}] {len(jobs)} filtered | CSV: {len(df)}\n")
