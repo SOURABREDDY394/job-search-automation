@@ -118,6 +118,10 @@ def is_scam(text, link, job):
     if salary > 25000 and "intern" in text:
         return True  # $25k/month for an intern? Scam.
 
+    # Job description is too short (low effort posting)
+    if len(text) < 30:
+        return True
+
     return False
 
 
