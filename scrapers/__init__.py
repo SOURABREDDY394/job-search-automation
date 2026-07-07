@@ -2,6 +2,7 @@ from scrapers.remoteok_scraper import search_remoteok
 from scrapers.remotive_scraper import search_remotive
 from scrapers.weworkremotely_scraper import search_weworkremotely
 from scrapers.hn_scraper import search_hn_hiring
-from scrapers.yc_scraper import search_yc_startups, search_wellfound
+from scrapers.yc_scraper import search_yc_startups
 from scrapers.github_jobs_scraper import search_github_awesome_remote
 from scrapers.additional_scraper import search_additional_sources
+from scrapers.wellfound_scraper import search_wellfound

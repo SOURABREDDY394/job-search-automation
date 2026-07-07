@@ -41,13 +41,15 @@ from scrapers.remoteok_scraper import search_remoteok
 from scrapers.remotive_scraper import search_remotive
 from scrapers.weworkremotely_scraper import search_weworkremotely
 from scrapers.hn_scraper import search_hn_hiring
-from scrapers.yc_scraper import search_yc_startups, search_wellfound
+from scrapers.yc_scraper import search_yc_startups
 from scrapers.github_jobs_scraper import search_github_awesome_remote
 from scrapers.additional_scraper import search_additional_sources
+from scrapers.wellfound_scraper import search_wellfound as search_wellfound_gql
 from filters import filter_jobs
 from tracker import find_new_jobs, get_stats
 from notifier import notify_new_jobs
 from dashboard import generate_dashboard
+from cold_email import generate_cold_emails, find_emails_from_hn_posts
 
 
 def run_search():
@@ -119,10 +121,10 @@ def run_search():
     except Exception as e:
         print(f"  ✗ {e}\n")
 
-    # 7. Wellfound/AngelList (startups)
-    print("[7/8] Wellfound (AngelList Startups)...")
+    # 7. Wellfound/AngelList (startups - GraphQL)
+    print("[7/8] Wellfound (Startup Jobs)...")
     try:
-        jobs = search_wellfound(SEARCH_KEYWORDS, MIN_HOURLY_USD)
+        jobs = search_wellfound_gql(SEARCH_KEYWORDS, MIN_HOURLY_USD)
         all_jobs.extend(jobs)
         print(f"  ✓ {len(jobs)} jobs\n")
     except Exception as e:
@@ -163,6 +165,18 @@ def run_search():
     # === DASHBOARD ===
     generate_dashboard(all_jobs, new_count=len(new_jobs))
 
+    # === COLD EMAILS ===
+    print("\n[Cold Email] Generating personalized outreach emails...")
+    try:
+        generate_cold_emails(all_jobs)
+        # Also find real emails from HN posts
+        hn_emails = find_emails_from_hn_posts(all_jobs)
+        if hn_emails:
+            print(f"  📬 Found {len(hn_emails)} HN posts with direct email addresses")
+            save_hn_emails(hn_emails)
+    except Exception as e:
+        print(f"  ✗ Cold email generation failed: {e}")
+
     # === SUMMARY ===
     print_summary(all_jobs, new_jobs)
 
@@ -182,6 +196,19 @@ def remove_duplicates(jobs):
             seen.add(key)
             unique.append(job)
     return unique
+
+
+def save_hn_emails(hn_emails):
+    """Save extracted HN emails to a file."""
+    with open("hn_direct_emails.md", "w", encoding="utf-8") as f:
+        f.write("# 🎯 Direct Emails from HN Hiring Posts\n\n")
+        f.write("> These are REAL emails posted by hiring managers on Hacker News.\n")
+        f.write("> Response rate is much higher than cold outreach.\n\n---\n\n")
+        for item in hn_emails:
+            f.write(f"## {item['company']} – {item['job_title']}\n")
+            f.write(f"**Emails:** {', '.join(item['emails'])}\n")
+            f.write(f"**Post:** {item['link']}\n\n---\n\n")
+    print(f"  📬 Direct emails saved to: hn_direct_emails.md")
 
 
 def save_results(jobs):
