@@ -46,10 +46,11 @@ def filter_jobs(jobs):
 
         # === EXCLUDE SENIOR ROLES ===
         if any(term in title for term in EXCLUDE_TERMS):
-            # Exception: keep if "intern" is explicitly in title
-            if "intern" not in title:
+            if not any(kw in title for kw in ["intern", "junior", "jr", "entry", "associate"]):
                 senior_count += 1
                 continue
+
+        job["is_senior_tagged"] = False
 
         # === QUALITY CHECK ===
         if len(job.get("title", "")) < 5:
@@ -76,7 +77,7 @@ def filter_jobs(jobs):
     )
 
     # Remove low-score jobs (except HN which has limited text to score from)
-    MIN_SCORE_THRESHOLD = 50
+    MIN_SCORE_THRESHOLD = 40
     before_count = len(filtered)
     filtered = [
         job for job in filtered
@@ -210,9 +211,12 @@ def calculate_relevance(job):
     source = job.get("source", "")
     source_bonus = {
         "HackerNews": 8,      # Highest quality, direct from hiring managers
-        "Remotive": 6,        # Curated, legit companies
-        "WeWorkRemotely": 5,  # Premium board
-        "RemoteOK": 3,        # Good but more volume
+        "Remotive": 10,       # Curated, legit companies - boost to pass threshold
+        "Jobicy": 10,         # Good remote board - boost to pass threshold
+        "Himalayas": 10,      # Hidden gem - boost to pass threshold
+        "WeWorkRemotely": 8,  # Premium board
+        "RemoteOK": 8,        # Good volume - boost
+        "YCombinator": 12,    # Startups, fast hiring
     }
     score += source_bonus.get(source, 0)
 

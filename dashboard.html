@@ -126,30 +126,30 @@
 <body>
     <div class="container">
         <h1>🔍 Job Search Dashboard</h1>
-        <p class="subtitle">International Remote Internships — Last updated: July 09, 2026 at 14:51</p>
+        <p class="subtitle">International Remote Internships — Last updated: July 09, 2026 at 15:06</p>
 
         <div class="stats">
             <div class="stat-card">
                 <h3>Total Jobs</h3>
-                <div class="number blue">61</div>
+                <div class="number blue">133</div>
             </div>
             <div class="stat-card">
                 <h3>New This Run</h3>
-                <div class="number green">61</div>
+                <div class="number green">133</div>
             </div>
             <div class="stat-card">
                 <h3>With Salary Info</h3>
-                <div class="number purple">10</div>
+                <div class="number purple">18</div>
             </div>
             <div class="stat-card">
                 <h3>Sources</h3>
-                <div class="number">3</div>
+                <div class="number">4</div>
             </div>
         </div>
 
         <div class="filters">
-            <button class="filter-btn active" onclick="filterSource('all')">All (61)</button>
-            <button class="filter-btn" onclick="filterSource('HackerNews')">HackerNews (58)</button><button class="filter-btn" onclick="filterSource('Remotive')">Remotive (2)</button><button class="filter-btn" onclick="filterSource('RemoteOK')">RemoteOK (1)</button>
+            <button class="filter-btn active" onclick="filterSource('all')">All (133)</button>
+            <button class="filter-btn" onclick="filterSource('RemoteOK')">RemoteOK (60)</button><button class="filter-btn" onclick="filterSource('HackerNews')">HackerNews (58)</button><button class="filter-btn" onclick="filterSource('Remotive')">Remotive (10)</button><button class="filter-btn" onclick="filterSource('Jobicy')">Jobicy (5)</button>
             <button class="filter-btn" onclick="filterEntry()">🎯 Intern/Junior Only</button>
             <input type="text" class="search-box" placeholder="Search jobs..." oninput="searchJobs(this.value)">
         </div>
@@ -272,6 +272,71 @@
             <td class="score">64</td>
         </tr>
         
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-front-end-developer-pulsemedia-mena-1134518" target="_blank">Junior Front End Developer</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>PULSEMEDIA (MENA)</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Ø§ÙØ±ÙØ§Ø¶, Ø§ÙØ±ÙØ§Ø¶ Ø§ÙØ±ÙØ§Ø¶ Ø§ÙØ³Ø¹ÙØ¯ÙØ©</td>
+            <td class="score">62</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-sales-associate-villeroy-amp-boch-sara-group-1133954" target="_blank">Sales Associate Villeroy &amp; Boch</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>SARA Group</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>ÙØ³ÙØ·, </td>
+            <td class="score">62</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-illustrator-twine-1133039" target="_blank">Junior Illustrator</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Twine</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Worldwide</td>
+            <td class="score">62</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-mid-full-stack-software-engineer-black-canyon-consulting-1131437" target="_blank">Junior Mid Full Stack Software Engineer</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Black Canyon Consulting</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Bethesda</td>
+            <td class="score">62</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-crypto-trader-atom-partners-limited-1134351" target="_blank">Junior Crypto Trader</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>ATOM PARTNERS LIMITED</td>
+            <td class="salary">$50,000-$70,000/year</td>
+            <td class="inr">₹345,778/mo</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Worldwide</td>
+            <td class="score">61</td>
+        </tr>
+        
         <tr class="job-row" data-source="HackerNews" data-entry="true">
             <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48838599" target="_blank">Forward Deployed Software Engineer (multiple levels)</a>
@@ -313,15 +378,145 @@
         
         <tr class="job-row" data-source="RemoteOK" data-entry="true">
             <td class="job-title">
-                <a href="https://remoteOK.com/remote-jobs/remote-junior-front-end-developer-pulsemedia-mena-1134518" target="_blank">Junior Front End Developer</a>
+                <a href="https://remoteOK.com/remote-jobs/remote-front-end-developer-fresher-zyphra-tech-1133568" target="_blank">Front End Developer Fresher</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>PULSEMEDIA (MENA)</td>
+            <td>ZYPHRA TECH</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
-            <td>Ø§ÙØ±ÙØ§Ø¶, Ø§ÙØ±ÙØ§Ø¶ Ø§ÙØ±ÙØ§Ø¶ Ø§ÙØ³Ø¹ÙØ¯ÙØ©</td>
-            <td class="score">57</td>
+            <td>Greater Visakhapatnam Area</td>
+            <td class="score">54</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-graduate-business-operations-associate-bezos-ai-1134231" target="_blank">Graduate Business Operations Associate</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Bezos.AI</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>London, London, England, United Kingdom</td>
+            <td class="score">54</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-english-speaking-support-associate-wolt-1133210" target="_blank">English speaking Support Associate</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Wolt</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Worldwide</td>
+            <td class="score">54</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-front-desk-guest-experience-associate-truporch-homes-1132537" target="_blank">Front Desk Guest Experience Associate</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>TruPorch Homes</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Manila, Manila, National Capital Region, Philippines</td>
+            <td class="score">54</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-front-end-developer-pulsemedia-apac-1132221" target="_blank">Junior Front End Developer</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>PULSEMEDIA (APAC)</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>ÙØ¯ÙÙØ© Ø§ÙØ´Ø§Ø±ÙØ©, Ø§ÙØ´Ø§Ø±ÙØ© ÙØ¯ÙÙØ© Ø§ÙØ´Ø§Ø±ÙØ© Ø§ÙØ¥ÙØ§Ø±Ø§Øª Ø§ÙØ¹Ø±Ø¨ÙØ© Ø§ÙÙØªØ­Ø¯Ø©</td>
+            <td class="score">54</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-associate-placements-upgrad-1132226" target="_blank">Associate Placements</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>upGrad</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Bengaluru, Bengaluru, Karnataka, India</td>
+            <td class="score">54</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-entry-level-administrative-professional-pulsemedianl-1132539" target="_blank">Entry Level Administrative Professional</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>PulseMediaNL</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Makkah Region</td>
+            <td class="score">54</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-front-end-developer-pulsemedianl-1132446" target="_blank">Junior Front End Developer</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>PulseMediaNL</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Ø§ÙØ¯ÙØ§Ù, Ø§ÙØ´Ø±ÙÙØ© Ø§ÙØ¯ÙØ§Ù Ø§ÙØ³Ø¹ÙØ¯ÙØ©</td>
+            <td class="score">54</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Jobicy" data-entry="true">
+            <td class="job-title">
+                <a href="https://jobicy.com/jobs/148205-cams-sustainability-internship" target="_blank">CAMS Sustainability Internship</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>State of Ohio</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
+            <td>USA</td>
+            <td class="score">53</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Jobicy" data-entry="true">
+            <td class="job-title">
+                <a href="https://jobicy.com/jobs/142625-service-associate-new-york-city-sustainability-solutions" target="_blank">Service Associate - New York City - Sustainability Solutions</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Stryker</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
+            <td>USA</td>
+            <td class="score">53</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-special-services-associate-airdrie-the-home-depot-canada-1134446" target="_blank">Special Services Associate AIRDRIE</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>The Home Depot Canada</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Airdrie, </td>
+            <td class="score">51</td>
         </tr>
         
         <tr class="job-row" data-source="HackerNews" data-entry="true">
@@ -335,6 +530,227 @@
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
             <td>Remote</td>
             <td class="score">51</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-supply-chain-analyst-helic-co-1133834" target="_blank">Junior Supply Chain Analyst</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Helic & Co</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>United States, </td>
+            <td class="score">51</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-project-designer-archinect-1133677" target="_blank">Junior Project Designer</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Archinect</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Hoboken, </td>
+            <td class="score">51</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-product-marketing-intern-everlaw-1131454" target="_blank">Product Marketing Intern</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Everlaw</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Oakland</td>
+            <td class="score">51</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-revops-ai-analyst-intern-actian-corporation-1130997" target="_blank">RevOps AI Analyst Intern</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Actian Corporation</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>US-Remote</td>
+            <td class="score">51</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-2d-game-design-intern-playpower-labs-1130440" target="_blank">2D Game Design Intern</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Playpower Labs</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Worldwide</td>
+            <td class="score">51</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-ui-engineer-arabian-private-holdings-1134413" target="_blank">Junior UI Engineer</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Arabian Private Holdings</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Birmingham, Birmingham, England, United Kingdom</td>
+            <td class="score">49</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-data-analyst-caterpillar-inc-1134008" target="_blank">Junior Data Analyst</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Caterpillar Inc.</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Houston, Houston, Texas, United States</td>
+            <td class="score">46</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-data-analyst-haystack-1133663" target="_blank">Junior Data Analyst</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Haystack</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>London, London, England, United Kingdom</td>
+            <td class="score">46</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-computer-science-specialist-g-s-international-public-school-1133998" target="_blank">Computer Science Specialist</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>G.S. International Public School</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Gurdaspur, </td>
+            <td class="score">46</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Jobicy" data-entry="true">
+            <td class="job-title">
+                <a href="https://jobicy.com/jobs/148144-engineering-manager-internal-developer-platform" target="_blank">Engineering Manager, Internal Developer Platform</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Chainguard</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
+            <td>USA</td>
+            <td class="score">43</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Jobicy" data-entry="true">
+            <td class="job-title">
+                <a href="https://jobicy.com/jobs/147871-senior-associate-automation-engineer" target="_blank">Senior Associate, Automation Engineer</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Housecall Pro</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
+            <td>USA</td>
+            <td class="score">43</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Jobicy" data-entry="true">
+            <td class="job-title">
+                <a href="https://jobicy.com/jobs/147869-associate-automation-engineer" target="_blank">Associate, Automation Engineer</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Housecall Pro</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
+            <td>USA</td>
+            <td class="score">43</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-entry-level-administrative-assistant-recruitlytics-hiring-1134471" target="_blank">Entry Level Administrative Assistant</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Recruitlytics Hiring</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Ø§ÙÙØ¯ÙÙØ©, Ø§ÙÙØ¯ÙÙØ© Ø§ÙÙØ¯ÙÙØ© Ø§ÙØ³Ø¹ÙØ¯ÙØ©</td>
+            <td class="score">41</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-associate-officer-arff-adani-airport-holdings-ltd-1134460" target="_blank">Associate Officer ARFF</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Adani Airport Holdings Ltd</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Mangaluru, </td>
+            <td class="score">41</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-frontend-developer-junior-universia-peru-1134158" target="_blank">Frontend Developer Junior</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Universia PerÃº</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>San Isidro, San Isidro, PerÃº</td>
+            <td class="score">41</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-junior-digital-designer-the-big-table-group-1132848" target="_blank">Junior Digital Designer</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>The Big Table Group</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>London, London, England, United Kingdom</td>
+            <td class="score">41</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-electrician-royal-beach-club-royal-caribbean-international-1132478" target="_blank">Electrician Royal Beach Club</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Royal Caribbean International</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Nassau, </td>
+            <td class="score">41</td>
         </tr>
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
@@ -417,28 +833,28 @@
         
         <tr class="job-row" data-source="Remotive" data-entry="false">
             <td class="job-title">
-                <a href="https://remotive.com/remote-jobs/software-development/frontend-developer-2090991" target="_blank">Frontend Developer</a>
+                <a href="https://remotive.com/remote-jobs/customer-service/client-success-coach-csm-2091039" target="_blank">Client Success Coach (CSM)</a>
                 
             </td>
-            <td>Quinncia Inc</td>
-            <td class="salary">$20k – $35k • No equity</td>
-            <td class="inr">₹1,660/mo</td>
+            <td>Impact Clients</td>
+            <td class="salary">$120k - $220k</td>
+            <td class="inr">₹9,960/mo</td>
             <td><span class="badge" style="background: #6366f1">Remotive</span></td>
-            <td>Worldwide</td>
-            <td class="score">63</td>
+            <td>Northern America, Europe, South Africa</td>
+            <td class="score">64</td>
         </tr>
         
         <tr class="job-row" data-source="Remotive" data-entry="false">
             <td class="job-title">
-                <a href="https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495" target="_blank">Remote Office Assistant</a>
+                <a href="https://remotive.com/remote-jobs/software-development/ios-developer-1956455" target="_blank">iOS Developer</a>
                 
             </td>
-            <td>Coalition Technologies </td>
-            <td class="salary">$31,2k- $52k</td>
-            <td class="inr">₹25,896/mo</td>
+            <td>nooro</td>
+            <td class="salary">$60k-$130k (depending on experience)</td>
+            <td class="inr">₹4,980/mo</td>
             <td><span class="badge" style="background: #6366f1">Remotive</span></td>
-            <td>Worldwide</td>
-            <td class="score">63</td>
+            <td>USA</td>
+            <td class="score">64</td>
         </tr>
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
@@ -493,6 +909,19 @@
             <td class="score">62</td>
         </tr>
         
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-full-stack-product-engineer-pivotal-health-1131314" target="_blank">Full Stack Product Engineer</a>
+                
+            </td>
+            <td>Pivotal Health</td>
+            <td class="salary">$180,000-$220,000/year</td>
+            <td class="inr">₹1,245,000/mo</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Los Angeles </td>
+            <td class="score">62</td>
+        </tr>
+        
         <tr class="job-row" data-source="HackerNews" data-entry="false">
             <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48756639" target="_blank">Product</a>
@@ -517,6 +946,58 @@
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
             <td>Remote</td>
             <td class="score">60</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Remotive" data-entry="false">
+            <td class="job-title">
+                <a href="https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306" target="_blank">Freelance Copywriter</a>
+                
+            </td>
+            <td>Coalition Technologies </td>
+            <td class="salary">$20k -$35k</td>
+            <td class="inr">₹1,660/mo</td>
+            <td><span class="badge" style="background: #6366f1">Remotive</span></td>
+            <td>Worldwide</td>
+            <td class="score">59</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Remotive" data-entry="false">
+            <td class="job-title">
+                <a href="https://remotive.com/remote-jobs/customer-service/customer-operations-writing-specialist-2090942" target="_blank">Customer Operations & Writing Specialist</a>
+                
+            </td>
+            <td>Clerky, Inc.</td>
+            <td class="salary">$12K</td>
+            <td class="inr">₹996/mo</td>
+            <td><span class="badge" style="background: #6366f1">Remotive</span></td>
+            <td>Worldwide</td>
+            <td class="score">59</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Remotive" data-entry="false">
+            <td class="job-title">
+                <a href="https://remotive.com/remote-jobs/sales/sales-assistant-2091038" target="_blank">Sales Assistant </a>
+                
+            </td>
+            <td>Endureed by Global Innovation </td>
+            <td class="salary">$20k-$25k</td>
+            <td class="inr">₹1,660/mo</td>
+            <td><span class="badge" style="background: #6366f1">Remotive</span></td>
+            <td>USA</td>
+            <td class="score">59</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Remotive" data-entry="false">
+            <td class="job-title">
+                <a href="https://remotive.com/remote-jobs/software-development/frontend-developer-2090991" target="_blank">Frontend Developer</a>
+                
+            </td>
+            <td>Quinncia Inc</td>
+            <td class="salary">$20k – $35k • No equity</td>
+            <td class="inr">₹1,660/mo</td>
+            <td><span class="badge" style="background: #6366f1">Remotive</span></td>
+            <td>Worldwide</td>
+            <td class="score">59</td>
         </tr>
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
@@ -675,6 +1156,45 @@
             <td class="score">52</td>
         </tr>
         
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-clinical-coding-trainer-torbay-and-south-devon-nhs-foundation-trust-1133221" target="_blank">Clinical Coding Trainer</a>
+                
+            </td>
+            <td>Torbay and South Devon NHS Foundation Trust</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Torquay, </td>
+            <td class="score">52</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-job-etudiant-professeur-particulier-teletravail-possible-tus-media-1133216" target="_blank">Job Ã©tudiant Professeur Particulier TÃ©lÃ©travail possible</a>
+                
+            </td>
+            <td>TUS Media</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Paris, Paris, Ãle-de-France, France</td>
+            <td class="score">52</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Remotive" data-entry="false">
+            <td class="job-title">
+                <a href="https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495" target="_blank">Remote Office Assistant</a>
+                
+            </td>
+            <td>Coalition Technologies </td>
+            <td class="salary">$31,2k- $52k</td>
+            <td class="inr">₹25,896/mo</td>
+            <td><span class="badge" style="background: #6366f1">Remotive</span></td>
+            <td>Worldwide</td>
+            <td class="score">51</td>
+        </tr>
+        
         <tr class="job-row" data-source="HackerNews" data-entry="false">
             <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48748044" target="_blank">Remote (US, Canada)</a>
@@ -688,6 +1208,71 @@
             <td class="score">50</td>
         </tr>
         
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-data-scientist-yo-hr-consultancy-1133043" target="_blank">Data Scientist</a>
+                
+            </td>
+            <td>YO HR Consultancy</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Worldwide</td>
+            <td class="score">50</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-data-analyst-fusemachines-1133041" target="_blank">Data Analyst</a>
+                
+            </td>
+            <td>Fusemachines</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Toronto, Toronto, Ontario, Canada</td>
+            <td class="score">50</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-flight-coordinator-starlink-aviation-1133044" target="_blank">Flight Coordinator</a>
+                
+            </td>
+            <td>Starlink Aviation</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Dorval, Dorval, Quebec, Canada</td>
+            <td class="score">50</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Remotive" data-entry="false">
+            <td class="job-title">
+                <a href="https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045" target="_blank">Tier III Service Desk Engineer</a>
+                
+            </td>
+            <td>Unio Digital</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6366f1">Remotive</span></td>
+            <td>USA</td>
+            <td class="score">49</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Remotive" data-entry="false">
+            <td class="job-title">
+                <a href="https://remotive.com/remote-jobs/all-others/quality-assurance-rater-german-germany-2090988" target="_blank">Quality Assurance Rater - German (Germany)</a>
+                
+            </td>
+            <td>TELUS Digital</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6366f1">Remotive</span></td>
+            <td>Germany</td>
+            <td class="score">49</td>
+        </tr>
+        
         <tr class="job-row" data-source="HackerNews" data-entry="false">
             <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48764138" target="_blank">San Francisco, CA (Hybrid) and Remote</a>
@@ -699,6 +1284,19 @@
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
             <td>Remote</td>
             <td class="score">49</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-regional-training-supervisor-guild-garage-group-1134586" target="_blank">Regional Training Supervisor</a>
+                
+            </td>
+            <td>Guild Garage Group</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Orlando, Orlando, Florida, United States</td>
+            <td class="score">47</td>
         </tr>
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
@@ -764,6 +1362,344 @@
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
             <td>Remote</td>
             <td class="score">44</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-ai-filmmaker-foxelli-group-1134232" target="_blank">AI Filmmaker</a>
+                
+            </td>
+            <td>Foxelli Group</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Praha, Praha, HlavnÃ­ mÄsto Praha, Äesko</td>
+            <td class="score">44</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-applied-ai-engineer-bjak-1132964" target="_blank">Applied AI Engineer</a>
+                
+            </td>
+            <td>Bjak </td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Zurich</td>
+            <td class="score">44</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-forward-deployed-engineer-agentic-platform-cohere-1131611" target="_blank">Forward Deployed Engineer Agentic Platform</a>
+                
+            </td>
+            <td>Cohere</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Worldwide</td>
+            <td class="score">44</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-3d-modeling-python-specialist-freelance-ai-trainer-project-invisible-agency-1131456" target="_blank">3D Modeling & Python Specialist Freelance AI Trainer Project</a>
+                
+            </td>
+            <td>Invisible Agency</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Worldwide</td>
+            <td class="score">44</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-optometrist-mangalore-reliance-retail-1133949" target="_blank">Optometrist Mangalore</a>
+                
+            </td>
+            <td>Reliance Retail</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Mangaluru, </td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-visual-merchandiser-hampm-1133953" target="_blank">Visual Merchandiser</a>
+                
+            </td>
+            <td>H&amp;M</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Bhopal, </td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-rack-cable-operator-hyve-solutions-1133958" target="_blank">Rack Cable Operator</a>
+                
+            </td>
+            <td>Hyve Solutions</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Downtown Core, </td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-head-housekeeping-attendant-erbil-rotana-1133956" target="_blank">Head Housekeeping Attendant</a>
+                
+            </td>
+            <td>Erbil Rotana</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Ø£Ø±Ø¨ÙÙ, </td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-frontend-engineer-gamblingcareers-com-1133416" target="_blank">Frontend Engineer</a>
+                
+            </td>
+            <td>GamblingCareers.com</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Toronto, </td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-frontend-engineer-over99-1133038" target="_blank">Frontend Engineer</a>
+                
+            </td>
+            <td>over99</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Toronto, Toronto, Ontario, Canada</td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-media-specialist-dsw-designer-shoe-warehouse-1133040" target="_blank">Media Specialist</a>
+                
+            </td>
+            <td>DSW Designer Shoe Warehouse</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Greater Toronto Area, Greater Toronto Area, Canada</td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-e-commerce-sales-executive-foodme-global-dine-palace-1133259" target="_blank">E Commerce Sales Executive</a>
+                
+            </td>
+            <td>FoodMe Global / Dine Palace</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Worldwide</td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-frontend-developer-medical-imaging-neurodiscovery-ai-1133256" target="_blank">Frontend Developer Medical Imaging</a>
+                
+            </td>
+            <td>NeuroDiscovery AI</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Bengaluru, Bengaluru, Karnataka, India</td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-hr-and-payroll-administrator-recruitgo-careers-1133257" target="_blank">HR and Payroll Administrator</a>
+                
+            </td>
+            <td>RecruitGo Careers</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Quezon City, Quezon City, National Capital Region, Philippines</td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-devsecops-engineer-trueml-1133456" target="_blank">DevSecOps Engineer</a>
+                
+            </td>
+            <td>TrueML</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Lenexa, Kansas</td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-conseiller-immobilier-neuf-montpellier-papillon-patrimoine-1133595" target="_blank">Conseiller Immobilier neuf Montpellier</a>
+                
+            </td>
+            <td>Papillon Patrimoine</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Montpellier, Montpellier, Occitanie, France</td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-conseiller-immobilier-neuf-paris-papillon-patrimoine-1133594" target="_blank">Conseiller Immobilier neuf Paris</a>
+                
+            </td>
+            <td>Papillon Patrimoine</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Paris, Paris, Ãle-de-France, France</td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-freelance-social-media-strategist-digital-1133347" target="_blank">Freelance Social Media Strategist</a>
+                
+            </td>
+            <td>Digital</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>New York, New York, New York, United States</td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-clinical-research-professional-curasenseai-1133219" target="_blank">Clinical Research Professional</a>
+                
+            </td>
+            <td>CuraSenseAI</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>United Kingdom, </td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-project-scheduler-flsmidth-1133959" target="_blank">Project Scheduler</a>
+                
+            </td>
+            <td>FLSmidth</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Almaty, </td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-snowflake-developer-tata-consultancy-services-1133946" target="_blank">Snowflake Developer</a>
+                
+            </td>
+            <td>Tata Consultancy Services</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Vishakhapatnam, </td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-ibm-webmethods-persistent-systems-1133957" target="_blank">IBM WebMethods</a>
+                
+            </td>
+            <td>Persistent Systems</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Nagpur, </td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-optometrist-andhra-pradesh-vijayawada-hub-lenskart-com-1133965" target="_blank">Optometrist Andhra Pradesh Vijayawada Hub</a>
+                
+            </td>
+            <td>Lenskart.com</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Narsipatnam, </td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-software-developer-react-nextjs-leap-tools-1133095" target="_blank">Software Developer React NextJS</a>
+                
+            </td>
+            <td>Leap Tools</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Toronto, Toronto, Ontario, Canada</td>
+            <td class="score">42</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="false">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-paid-media-specialist-meta-google-ads-noventra-group-1134552" target="_blank">Paid Media Specialist Meta & Google Ads</a>
+                
+            </td>
+            <td>Noventra Group</td>
+            <td class="salary">$50,000 - $80,000/year</td>
+            <td class="inr">₹345,778/mo</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Worldwide Remote</td>
+            <td class="score">41</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Remotive" data-entry="false">
+            <td class="job-title">
+                <a href="https://remotive.com/remote-jobs/medical/assistant-account-payable-2090989" target="_blank">Assistant Account Payable</a>
+                
+            </td>
+            <td>The Obesity Society</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6366f1">Remotive</span></td>
+            <td>USA</td>
+            <td class="score">41</td>
         </tr>
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
@@ -965,7 +1901,7 @@
         </table>
 
         <p class="footer">
-            Auto-generated by Job Search Automation | 61 jobs from 3 sources
+            Auto-generated by Job Search Automation | 133 jobs from 4 sources
         </p>
     </div>
 

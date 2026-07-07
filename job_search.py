@@ -43,6 +43,7 @@ from scrapers.weworkremotely_scraper import search_weworkremotely
 from scrapers.hn_scraper import search_hn_hiring
 from scrapers.yc_scraper import search_yc_startups, search_wellfound
 from scrapers.github_jobs_scraper import search_github_awesome_remote
+from scrapers.additional_scraper import search_additional_sources
 from filters import filter_jobs
 from tracker import find_new_jobs, get_stats
 from notifier import notify_new_jobs
@@ -119,9 +120,18 @@ def run_search():
         print(f"  ✗ {e}\n")
 
     # 7. Wellfound/AngelList (startups)
-    print("[7/7] Wellfound (AngelList Startups)...")
+    print("[7/8] Wellfound (AngelList Startups)...")
     try:
         jobs = search_wellfound(SEARCH_KEYWORDS, MIN_HOURLY_USD)
+        all_jobs.extend(jobs)
+        print(f"  ✓ {len(jobs)} jobs\n")
+    except Exception as e:
+        print(f"  ✗ {e}\n")
+
+    # 8. Additional sources (RemoteOK tag-based + startup boards)
+    print("[8/8] Additional Sources (tag-specific + startups)...")
+    try:
+        jobs = search_additional_sources(SEARCH_KEYWORDS, MIN_HOURLY_USD)
         all_jobs.extend(jobs)
         print(f"  ✓ {len(jobs)} jobs\n")
     except Exception as e:

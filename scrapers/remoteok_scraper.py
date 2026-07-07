@@ -63,24 +63,21 @@ def search_remoteok(keywords, min_hourly=10):
                 # Check if this matches our keywords (intern/junior/entry)
                 all_text = f"{position} {description} {' '.join(tags)}"
 
-                # Must be intern/junior/entry level
-                is_entry_level = any(term in all_text for term in [
-                    "intern", "internship", "junior", "entry level",
-                    "entry-level", "graduate", "fresher", "trainee",
-                    "associate", "early career"
-                ])
+                # Must match tech keywords - broad check
+                tech_terms = [
+                    "python", "javascript", "react", "node", "fastapi",
+                    "django", "flask", "ai", "machine learning", "ml",
+                    "llm", "data", "full stack", "fullstack", "backend",
+                    "frontend", "software", "developer", "engineer",
+                    "aws", "docker", "api", "web", "deep learning",
+                    "nlp", "rag", "devops", "cloud", "typescript",
+                    "postgresql", "database", "intern", "junior",
+                ]
 
-                # Must match at least one of our tech keywords
-                matches_tech = any(
-                    kw.lower().replace(" intern", "") in all_text
-                    for kw in keywords
-                )
+                matches_tech = any(term in all_text for term in tech_terms)
 
-                if not (is_entry_level or matches_tech):
+                if not matches_tech:
                     continue
-
-                # Even if not explicitly entry level, include if it matches tech keywords
-                # (many remote jobs don't specify level but are open to juniors)
 
                 # Parse salary
                 salary_text = "Not specified"
