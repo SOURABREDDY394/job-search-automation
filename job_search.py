@@ -46,6 +46,7 @@ from scrapers.github_jobs_scraper import search_github_awesome_remote
 from scrapers.additional_scraper import search_additional_sources
 from scrapers.wellfound_scraper import search_wellfound as search_wellfound_gql
 from scrapers.simplyhired_scraper import search_simplyhired
+from scrapers.github_list_scraper import search_github_lists
 from filters import filter_jobs
 from tracker import find_new_jobs, get_stats
 from notifier import notify_new_jobs
@@ -141,9 +142,18 @@ def run_search():
         print(f"  ✗ {e}\n")
 
     # 9. SimplyHired (large aggregator)
-    print("[9/9] SimplyHired (job aggregator)...")
+    print("[9/10] SimplyHired (job aggregator)...")
     try:
         jobs = search_simplyhired(SEARCH_KEYWORDS, MIN_HOURLY_USD)
+        all_jobs.extend(jobs)
+        print(f"  ✓ {len(jobs)} jobs\n")
+    except Exception as e:
+        print(f"  ✗ {e}\n")
+
+    # 10. GitHub Curated List (NVIDIA, Microsoft, TikTok, Cloudflare, Mistral, etc.)
+    print("[10/10] GitHub Curated List (FAANG + Global Companies)...")
+    try:
+        jobs = search_github_lists(SEARCH_KEYWORDS, MIN_HOURLY_USD)
         all_jobs.extend(jobs)
         print(f"  ✓ {len(jobs)} jobs\n")
     except Exception as e:

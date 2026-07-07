@@ -40,9 +40,11 @@ def filter_jobs(jobs):
         all_text = f"{title} {company} {tags}"
 
         # === SCAM CHECK ===
-        if is_scam(all_text, link, job):
-            scam_count += 1
-            continue
+        # Skip scam check for curated sources (manually maintained, 100% legit)
+        if job.get("source") not in ("GitHub-CuratedList",):
+            if is_scam(all_text, link, job):
+                scam_count += 1
+                continue
 
         # === EXCLUDE SENIOR ROLES ===
         if any(term in title for term in EXCLUDE_TERMS):
@@ -76,12 +78,13 @@ def filter_jobs(jobs):
         reverse=True,
     )
 
-    # Remove low-score jobs (except HN which has limited text to score from)
+    # Remove low-score jobs (except HN and curated lists which we trust)
     MIN_SCORE_THRESHOLD = 40
     before_count = len(filtered)
     filtered = [
         job for job in filtered
-        if job.get("source") == "HackerNews" or job.get("relevance_score", 0) >= MIN_SCORE_THRESHOLD
+        if job.get("source") in ("HackerNews", "GitHub-CuratedList")
+        or job.get("relevance_score", 0) >= MIN_SCORE_THRESHOLD
     ]
     low_score_removed = before_count - len(filtered)
 
