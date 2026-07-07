@@ -82,13 +82,23 @@ SCAM_INDICATORS = [
     "be your own boss", "passive income opportunity",
 ]
 
-# === STARTUP INDICATORS (these hire fast) ===
+# === STARTUP INDICATORS (these hire fast — YOUR best bet) ===
 STARTUP_SIGNALS = [
     "yc", "y combinator", "seed", "series a", "series b",
     "startup", "early stage", "founding", "first hire",
     "small team", "fast-paced", "equity", "stock options",
     "growing team", "venture backed", "funded",
     "pre-seed", "techstars", "accelerator",
+    "5-10 people", "10-50 people", "1-10 employees",
+    "11-50 employees", "51-200 employees",
+]
+
+# === BIG COMPANIES TO SKIP (too competitive, won't respond) ===
+SKIP_BIG_COMPANIES = [
+    "google", "microsoft", "meta", "amazon", "apple", "nvidia",
+    "tiktok", "bytedance", "salesforce", "adobe", "intel",
+    "citadel", "jane street", "goldman sachs", "morgan stanley",
+    "walmart", "cisco", "oracle", "ibm", "qualcomm",
 ]
 
 # === WORK TYPE ===

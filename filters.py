@@ -15,6 +15,7 @@ from config import (
     SCAM_INDICATORS,
     STARTUP_SIGNALS,
     MY_SKILLS,
+    SKIP_BIG_COMPANIES,
 )
 
 
@@ -51,6 +52,10 @@ def filter_jobs(jobs):
             if not any(kw in title for kw in ["intern", "junior", "jr", "entry", "associate"]):
                 senior_count += 1
                 continue
+
+        # === SKIP BIG COMPANIES (too competitive) ===
+        if any(bc in company for bc in SKIP_BIG_COMPANIES):
+            continue
 
         job["is_senior_tagged"] = False
 
@@ -192,9 +197,9 @@ def calculate_relevance(job):
     if job.get("is_entry_level"):
         score += 20
 
-    # Startup bonus (+10) - they hire fast
+    # Startup bonus (+15) - they hire fast
     if job.get("is_startup"):
-        score += 10
+        score += 15
 
     # Salary available (+10)
     if job.get("salary_monthly_usd", 0) > 0:

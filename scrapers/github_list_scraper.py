@@ -78,6 +78,18 @@ def search_github_lists(keywords, min_hourly=10):
                 if age_days > 60:
                     continue
 
+                # Skip big companies (too competitive, waste of time)
+                big_companies = [
+                    "nvidia", "microsoft", "meta", "google", "amazon", "apple",
+                    "tiktok", "bytedance", "salesforce", "adobe", "intel",
+                    "citadel", "jane street", "optiver", "two sigma",
+                    "goldman sachs", "morgan stanley", "jp morgan",
+                    "walmart", "cisco", "oracle", "ibm", "samsung",
+                    "qualcomm", "broadcom", "tesla", "spacex",
+                ]
+                if any(bc in company.lower() for bc in big_companies):
+                    continue
+
                 # Skip PhD-only roles
                 position_lower = position.lower()
                 if "phd" in position_lower and "bs" not in position_lower and "ms" not in position_lower:
