@@ -75,10 +75,21 @@ def filter_jobs(jobs):
         reverse=True,
     )
 
+    # Remove low-score jobs (except HN which has limited text to score from)
+    MIN_SCORE_THRESHOLD = 50
+    before_count = len(filtered)
+    filtered = [
+        job for job in filtered
+        if job.get("source") == "HackerNews" or job.get("relevance_score", 0) >= MIN_SCORE_THRESHOLD
+    ]
+    low_score_removed = before_count - len(filtered)
+
     if scam_count > 0:
         print(f"  🚫 Removed {scam_count} suspected scam listings")
     if senior_count > 0:
         print(f"  ⏭️  Skipped {senior_count} senior/lead roles")
+    if low_score_removed > 0:
+        print(f"  📉 Removed {low_score_removed} low-relevance jobs (score < {MIN_SCORE_THRESHOLD})")
 
     return filtered
 
