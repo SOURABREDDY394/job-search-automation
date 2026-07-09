@@ -15,45 +15,51 @@ MY_SKILLS = [
 
 # === SEARCH KEYWORDS (what you want to find) ===
 SEARCH_KEYWORDS = [
-    # AI/ML roles
+    # AI/ML internships (priority)
     "AI engineer intern",
-    "AI engineer",
+    "AI intern",
     "machine learning intern",
-    "machine learning engineer",
-    "LLM engineer",
-    "NLP engineer",
-    "AI developer",
-    "generative AI",
-    "RAG",
-    "prompt engineer",
-    # Full Stack
+    "ML intern",
+    "LLM intern",
+    "NLP intern",
+    "generative AI intern",
+    "RAG intern",
+    "data science intern",
+    # Full Stack internships
     "full stack intern",
-    "full stack developer",
-    "full stack engineer",
-    # Backend
-    "backend intern",
-    "backend developer",
-    "backend engineer",
-    "python developer",
-    "fastapi",
-    "node.js developer",
-    # Web Development
+    "full stack internship",
     "web developer intern",
-    "web developer",
-    "react developer",
-    "frontend intern",
-    # General SWE
+    "react intern",
+    # Backend internships
+    "backend intern",
+    "python intern",
+    "python internship",
+    "fastapi intern",
+    "node.js intern",
+    # General SWE internships
     "software engineer intern",
+    "software engineering internship",
     "software developer intern",
-    "junior software engineer",
+    "developer intern",
+    # Other terms
+    "remote internship",
+    "paid internship",
 ]
 
 # === ENTRY LEVEL TERMS ===
+# Prioritize internships over junior roles (you're undergrad BCA)
+INTERN_ONLY_TERMS = [
+    "intern", "internship", "trainee", "co-op", "coop",
+    "apprentice", "working student", "placement",
+]
+
+# These are acceptable but lower priority (some may need degree)
 ENTRY_LEVEL_TERMS = [
     "intern", "internship", "junior", "jr", "entry level",
     "entry-level", "graduate", "trainee", "associate",
     "early career", "new grad", "fresher", "0-2 years",
     "0-3 years", "1-2 years", "no experience required",
+    "co-op", "coop", "apprentice", "working student",
 ]
 
 # === EXCLUDE (senior roles you can't land yet) ===

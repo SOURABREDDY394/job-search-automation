@@ -126,20 +126,20 @@
 <body>
     <div class="container">
         <h1>🔍 Job Search Dashboard</h1>
-        <p class="subtitle">International Remote Internships — Last updated: July 09, 2026 at 16:05</p>
+        <p class="subtitle">International Remote Internships — Last updated: July 10, 2026 at 01:46</p>
 
         <div class="stats">
             <div class="stat-card">
                 <h3>Total Jobs</h3>
-                <div class="number blue">134</div>
+                <div class="number blue">168</div>
             </div>
             <div class="stat-card">
                 <h3>New This Run</h3>
-                <div class="number green">134</div>
+                <div class="number green">168</div>
             </div>
             <div class="stat-card">
                 <h3>With Salary Info</h3>
-                <div class="number purple">18</div>
+                <div class="number purple">21</div>
             </div>
             <div class="stat-card">
                 <h3>Sources</h3>
@@ -148,8 +148,8 @@
         </div>
 
         <div class="filters">
-            <button class="filter-btn active" onclick="filterSource('all')">All (134)</button>
-            <button class="filter-btn" onclick="filterSource('RemoteOK')">RemoteOK (61)</button><button class="filter-btn" onclick="filterSource('HackerNews')">HackerNews (58)</button><button class="filter-btn" onclick="filterSource('Remotive')">Remotive (10)</button><button class="filter-btn" onclick="filterSource('Jobicy')">Jobicy (5)</button>
+            <button class="filter-btn active" onclick="filterSource('all')">All (168)</button>
+            <button class="filter-btn" onclick="filterSource('HackerNews')">HackerNews (94)</button><button class="filter-btn" onclick="filterSource('RemoteOK')">RemoteOK (60)</button><button class="filter-btn" onclick="filterSource('Remotive')">Remotive (10)</button><button class="filter-btn" onclick="filterSource('Jobicy')">Jobicy (4)</button>
             <button class="filter-btn" onclick="filterEntry()">🎯 Intern/Junior Only</button>
             <input type="text" class="search-box" placeholder="Search jobs..." oninput="searchJobs(this.value)">
         </div>
@@ -168,6 +168,19 @@
             </thead>
             <tbody>
                 
+        <tr class="job-row" data-source="HackerNews" data-entry="true">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48764582" target="_blank">Junior to Senior Fullstack Engineer multiple positions</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>SerpApi</td>
+            <td class="salary">$150,000-$180,000/year</td>
+            <td class="inr">₹1,037,500/mo</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">90</td>
+        </tr>
+        
         <tr class="job-row" data-source="HackerNews" data-entry="true">
             <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48751634" target="_blank">Software Engineers</a>
@@ -257,6 +270,110 @@
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
             <td>Remote</td>
             <td class="score">72</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Jobicy" data-entry="true">
+            <td class="job-title">
+                <a href="https://jobicy.com/jobs/148205-cams-sustainability-internship" target="_blank">CAMS Sustainability Internship</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>State of Ohio</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
+            <td>USA</td>
+            <td class="score">68</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="true">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48762195" target="_blank">Software/AI Role</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Vertex Inc</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">67</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="true">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48753597" target="_blank">Remote</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Puma.tech</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">67</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="true">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48753637" target="_blank">Founding Engineer</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Racster</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">66</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="true">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48749307" target="_blank">Founding Engineers</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Talk Machine</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">66</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-product-marketing-intern-everlaw-1131454" target="_blank">Product Marketing Intern</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Everlaw</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Oakland</td>
+            <td class="score">66</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-revops-ai-analyst-intern-actian-corporation-1130997" target="_blank">RevOps AI Analyst Intern</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Actian Corporation</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>US-Remote</td>
+            <td class="score">66</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-2d-game-design-intern-playpower-labs-1130440" target="_blank">2D Game Design Intern</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Playpower Labs</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Worldwide</td>
+            <td class="score">66</td>
         </tr>
         
         <tr class="job-row" data-source="HackerNews" data-entry="true">
@@ -352,6 +469,32 @@
         
         <tr class="job-row" data-source="HackerNews" data-entry="true">
             <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48761473" target="_blank">Software/AI Role</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Mainmatter (</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">59</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="true">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48750001" target="_blank">Remote</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Junior</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">59</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="true">
+            <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48749799" target="_blank">Blockchain Security Engineer</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
@@ -374,6 +517,19 @@
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
             <td>Remote</td>
             <td class="score">59</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Jobicy" data-entry="true">
+            <td class="job-title">
+                <a href="https://jobicy.com/jobs/148144-engineering-manager-internal-developer-platform" target="_blank">Engineering Manager, Internal Developer Platform</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Chainguard</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
+            <td>USA</td>
+            <td class="score">58</td>
         </tr>
         
         <tr class="job-row" data-source="RemoteOK" data-entry="true">
@@ -480,42 +636,16 @@
             <td class="score">54</td>
         </tr>
         
-        <tr class="job-row" data-source="Jobicy" data-entry="true">
+        <tr class="job-row" data-source="HackerNews" data-entry="true">
             <td class="job-title">
-                <a href="https://jobicy.com/jobs/148205-cams-sustainability-internship" target="_blank">CAMS Sustainability Internship</a>
+                <a href="https://news.ycombinator.com/item?id=48754869" target="_blank">Software/AI Role</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>State of Ohio</td>
+            <td>Any ballparks of what the hourly rate is you're ai...</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
-            <td>USA</td>
-            <td class="score">53</td>
-        </tr>
-        
-        <tr class="job-row" data-source="Jobicy" data-entry="true">
-            <td class="job-title">
-                <a href="https://jobicy.com/jobs/142625-service-associate-new-york-city-sustainability-solutions" target="_blank">Service Associate - New York City - Sustainability Solutions</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Stryker</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
-            <td>USA</td>
-            <td class="score">53</td>
-        </tr>
-        
-        <tr class="job-row" data-source="RemoteOK" data-entry="true">
-            <td class="job-title">
-                <a href="https://remoteOK.com/remote-jobs/remote-special-services-associate-airdrie-the-home-depot-canada-1134446" target="_blank">Special Services Associate AIRDRIE</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>The Home Depot Canada</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
-            <td>Airdrie, </td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
             <td class="score">51</td>
         </tr>
         
@@ -558,43 +688,17 @@
             <td class="score">51</td>
         </tr>
         
-        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+        <tr class="job-row" data-source="Jobicy" data-entry="true">
             <td class="job-title">
-                <a href="https://remoteOK.com/remote-jobs/remote-product-marketing-intern-everlaw-1131454" target="_blank">Product Marketing Intern</a>
+                <a href="https://jobicy.com/jobs/146075-developer-intern-trust-platforms-fall-2026" target="_blank">Developer Intern, Trust Platforms - Fall 2026</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>Everlaw</td>
+            <td>1Password</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
-            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
-            <td>Oakland</td>
-            <td class="score">51</td>
-        </tr>
-        
-        <tr class="job-row" data-source="RemoteOK" data-entry="true">
-            <td class="job-title">
-                <a href="https://remoteOK.com/remote-jobs/remote-revops-ai-analyst-intern-actian-corporation-1130997" target="_blank">RevOps AI Analyst Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Actian Corporation</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
-            <td>US-Remote</td>
-            <td class="score">51</td>
-        </tr>
-        
-        <tr class="job-row" data-source="RemoteOK" data-entry="true">
-            <td class="job-title">
-                <a href="https://remoteOK.com/remote-jobs/remote-2d-game-design-intern-playpower-labs-1130440" target="_blank">2D Game Design Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Playpower Labs</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
-            <td>Worldwide</td>
-            <td class="score">51</td>
+            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
+            <td>Canada,  USA</td>
+            <td class="score">50</td>
         </tr>
         
         <tr class="job-row" data-source="RemoteOK" data-entry="true">
@@ -608,6 +712,19 @@
             <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
             <td>Birmingham, Birmingham, England, United Kingdom</td>
             <td class="score">49</td>
+        </tr>
+        
+        <tr class="job-row" data-source="RemoteOK" data-entry="true">
+            <td class="job-title">
+                <a href="https://remoteOK.com/remote-jobs/remote-intern-sd-engineer-copious-1131629" target="_blank">Intern SD Engineer</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Copious</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
+            <td>Maharashtra</td>
+            <td class="score">48</td>
         </tr>
         
         <tr class="job-row" data-source="RemoteOK" data-entry="true">
@@ -649,45 +766,6 @@
             <td class="score">46</td>
         </tr>
         
-        <tr class="job-row" data-source="Jobicy" data-entry="true">
-            <td class="job-title">
-                <a href="https://jobicy.com/jobs/148144-engineering-manager-internal-developer-platform" target="_blank">Engineering Manager, Internal Developer Platform</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Chainguard</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
-            <td>USA</td>
-            <td class="score">43</td>
-        </tr>
-        
-        <tr class="job-row" data-source="Jobicy" data-entry="true">
-            <td class="job-title">
-                <a href="https://jobicy.com/jobs/147871-senior-associate-automation-engineer" target="_blank">Senior Associate, Automation Engineer</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Housecall Pro</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
-            <td>USA</td>
-            <td class="score">43</td>
-        </tr>
-        
-        <tr class="job-row" data-source="Jobicy" data-entry="true">
-            <td class="job-title">
-                <a href="https://jobicy.com/jobs/147869-associate-automation-engineer" target="_blank">Associate, Automation Engineer</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Housecall Pro</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
-            <td>USA</td>
-            <td class="score">43</td>
-        </tr>
-        
         <tr class="job-row" data-source="RemoteOK" data-entry="true">
             <td class="job-title">
                 <a href="https://remoteOK.com/remote-jobs/remote-entry-level-administrative-assistant-recruitlytics-hiring-1134471" target="_blank">Entry Level Administrative Assistant</a>
@@ -698,19 +776,6 @@
             <td class="inr">—</td>
             <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
             <td>Ø§ÙÙØ¯ÙÙØ©, Ø§ÙÙØ¯ÙÙØ© Ø§ÙÙØ¯ÙÙØ© Ø§ÙØ³Ø¹ÙØ¯ÙØ©</td>
-            <td class="score">41</td>
-        </tr>
-        
-        <tr class="job-row" data-source="RemoteOK" data-entry="true">
-            <td class="job-title">
-                <a href="https://remoteOK.com/remote-jobs/remote-associate-officer-arff-adani-airport-holdings-ltd-1134460" target="_blank">Associate Officer ARFF</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Adani Airport Holdings Ltd</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
-            <td>Mangaluru, </td>
             <td class="score">41</td>
         </tr>
         
@@ -1041,6 +1106,45 @@
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
             <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48797747" target="_blank">Founding CTO</a>
+                
+            </td>
+            <td>Syntropic</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">54</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48751039" target="_blank">Data Engineer</a>
+                
+            </td>
+            <td>Forecasting Research Institute</td>
+            <td class="salary">$75,000-$130,000/year</td>
+            <td class="inr">₹518,750/mo</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">54</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48806120" target="_blank">Fullstack engineer</a>
+                
+            </td>
+            <td>Rivet</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">52</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48792793" target="_blank">Remote</a>
                 
             </td>
@@ -1084,6 +1188,19 @@
                 
             </td>
             <td>Ojin</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">52</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48752751" target="_blank">Global Remote (almost anywhere) & Hybrid NYC</a>
+                
+            </td>
+            <td>Atria</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
@@ -1301,10 +1418,49 @@
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
             <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48766814" target="_blank">Toronto, ON</a>
+                
+            </td>
+            <td>Cardog</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">47</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48758483" target="_blank">Software/AI Role</a>
+                
+            </td>
+            <td>Rail Europe (</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">47</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48754441" target="_blank">Infra Eng</a>
                 
             </td>
             <td>Railway</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">47</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48750343" target="_blank">First Engineer</a>
+                
+            </td>
+            <td>Mitty</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
@@ -1323,6 +1479,19 @@
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
             <td>Remote</td>
             <td class="score">46</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48837183" target="_blank">Infrastructure Engineer</a>
+                
+            </td>
+            <td>IVPN</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">44</td>
         </tr>
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
@@ -1717,6 +1886,19 @@
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
             <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48770198" target="_blank">Ruby on Rails Engineer</a>
+                
+            </td>
+            <td>Tax Rails</td>
+            <td class="salary">$85,000-$125,000/year</td>
+            <td class="inr">₹587,889/mo</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">41</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48756260" target="_blank">careers)</a>
                 
             </td>
@@ -1726,6 +1908,32 @@
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
             <td>Remote</td>
             <td class="score">41</td>
+        </tr>
+        
+        <tr class="job-row" data-source="Jobicy" data-entry="false">
+            <td class="job-title">
+                <a href="https://jobicy.com/jobs/149051-ai-engineer-gn-agentic-ai-automation" target="_blank">AI Engineer [gn] (Agentic AI & Automation)</a>
+                
+            </td>
+            <td>Actian</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
+            <td>Europe</td>
+            <td class="score">41</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48818190" target="_blank">Azure Data DevOps Engineer</a>
+                
+            </td>
+            <td>Assura Protect</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">39</td>
         </tr>
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
@@ -1756,6 +1964,19 @@
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
             <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48782067" target="_blank">first company building an AI automation platform for profess...</a>
+                
+            </td>
+            <td>PostSilo is a privacy</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">39</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48765749" target="_blank">Software Engineers (multiple levels)</a>
                 
             </td>
@@ -1773,6 +1994,71 @@
                 
             </td>
             <td>Oklo</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">39</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48762916" target="_blank">Software/AI Role</a>
+                
+            </td>
+            <td>Kog (</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">39</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48762674" target="_blank">Software Engineer</a>
+                
+            </td>
+            <td>Perry Street Software</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">39</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48761162" target="_blank">Tokyo or Remote in Japan</a>
+                
+            </td>
+            <td>Preferred Networks</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">39</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48755415" target="_blank">Software Engineer</a>
+                
+            </td>
+            <td>Sudowrite</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">39</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48753495" target="_blank">REMOTE (US</a>
+                
+            </td>
+            <td>SpruceID</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
@@ -1847,10 +2133,88 @@
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
             <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48822697" target="_blank">Software Engineer</a>
+                
+            </td>
+            <td>LiveKit</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48812077" target="_blank">Software/AI Role</a>
+                
+            </td>
+            <td>Could you explain what "Oklo requires remote emplo...</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48808119" target="_blank">Software/AI Role</a>
+                
+            </td>
+            <td>The role is Global, Workable just has terrible set...</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48804695" target="_blank">Frontend Engineer</a>
                 
             </td>
             <td>This Dot Labs</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48767262" target="_blank">Software/AI Role</a>
+                
+            </td>
+            <td>August Health (</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48766311" target="_blank">San Francisco, ONSITE (also Tokyo for some roles)</a>
+                
+            </td>
+            <td>Radical Numerics</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48758289" target="_blank">Software/AI Role</a>
+                
+            </td>
+            <td>Lago (</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
@@ -1873,6 +2237,32 @@
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
             <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48754925" target="_blank">Software/AI Role</a>
+                
+            </td>
+            <td>I am looking to hire a freelancer for a math resea...</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48754641" target="_blank">Software/AI Role</a>
+                
+            </td>
+            <td>FINN App (</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
                 <a href="https://news.ycombinator.com/item?id=48753928" target="_blank">Software Engineer</a>
                 
             </td>
@@ -1882,6 +2272,58 @@
             <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
             <td>Remote</td>
             <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48752047" target="_blank">London, UK</a>
+                
+            </td>
+            <td>OpenRent</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48751068" target="_blank">Data Engineer</a>
+                
+            </td>
+            <td>IPinfo.io</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48750675" target="_blank">level C#</a>
+                
+            </td>
+            <td>RedLine Solutions is hiring a fully remote mid</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">31</td>
+        </tr>
+        
+        <tr class="job-row" data-source="HackerNews" data-entry="false">
+            <td class="job-title">
+                <a href="https://news.ycombinator.com/item?id=48825319" target="_blank">Engineering & Product</a>
+                
+            </td>
+            <td>Ditto</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #ef4444">HackerNews</span></td>
+            <td>Remote</td>
+            <td class="score">21</td>
         </tr>
         
         <tr class="job-row" data-source="HackerNews" data-entry="false">
@@ -1914,7 +2356,7 @@
         </table>
 
         <p class="footer">
-            Auto-generated by Job Search Automation | 134 jobs from 4 sources
+            Auto-generated by Job Search Automation | 168 jobs from 4 sources
         </p>
     </div>
 

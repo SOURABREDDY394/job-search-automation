@@ -31,19 +31,18 @@ CATEGORIES = [
 # Also search by keyword directly (gets more results)
 KEYWORD_SEARCHES = [
     "intern",
-    "junior",
-    "entry level",
-    "junior python",
-    "junior react",
-    "junior AI",
-    "junior full stack",
-    "junior backend",
-    "junior frontend",
-    "junior software engineer",
-    "junior developer",
-    "junior data",
-    "graduate developer",
-    "trainee",
+    "internship",
+    "AI intern",
+    "python intern",
+    "react intern",
+    "full stack intern",
+    "backend intern",
+    "frontend intern",
+    "software engineer intern",
+    "machine learning intern",
+    "data science intern",
+    "web developer intern",
+    "remote internship",
 ]
 
 

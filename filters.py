@@ -197,6 +197,11 @@ def calculate_relevance(job):
     if job.get("is_entry_level"):
         score += 20
 
+    # INTERN-SPECIFIC bonus (+15) — you're undergrad, internships are ideal
+    title_lower = job.get("title", "").lower()
+    if any(term in title_lower for term in ["intern", "internship", "trainee", "co-op", "apprentice"]):
+        score += 15
+
     # Startup bonus (+15) - they hire fast
     if job.get("is_startup"):
         score += 15

@@ -153,20 +153,20 @@ def search_jobicy(keywords):
     seen_ids = set()
     print("  [Jobicy] Searching with tag queries...")
 
-    # Search multiple tags - focus on junior/intern/entry
+    # Search multiple tags - focus on internships
     search_tags = [
-        "junior",
         "intern",
-        "entry-level",
-        "junior-developer",
-        "junior-python",
-        "junior-react",
-        "junior-full-stack",
-        "junior-backend",
-        "junior-frontend",
-        "graduate",
+        "internship",
         "trainee",
-        "associate",
+        "python-intern",
+        "software-intern",
+        "AI-intern",
+        "data-intern",
+        "web-intern",
+        "react-intern",
+        "backend-intern",
+        "full-stack-intern",
+        "machine-learning-intern",
     ]
 
     for tag in search_tags:
