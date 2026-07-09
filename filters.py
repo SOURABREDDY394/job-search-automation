@@ -47,17 +47,19 @@ def filter_jobs(jobs):
                 scam_count += 1
                 continue
 
-        # === EXCLUDE SENIOR ROLES ===
-        if any(term in title for term in EXCLUDE_TERMS):
-            if not any(kw in title for kw in ["intern", "junior", "jr", "entry", "associate"]):
+        # === ONLY INTERNSHIPS — strict check ===
+        # Must have "intern" or "internship" or "trainee" or "co-op" in the TITLE
+        intern_terms = ["intern", "internship", "trainee", "co-op", "coop", "apprentice"]
+        if not any(term in title for term in intern_terms):
+            # Exception: HN posts often don't have "intern" in title but are open to interns
+            if job.get("source") != "HackerNews":
                 senior_count += 1
                 continue
 
-        # === SKIP BIG COMPANIES (too competitive) ===
-        if any(bc in company for bc in SKIP_BIG_COMPANIES):
+        # === EXCLUDE SENIOR ROLES ===
+        if any(term in title for term in EXCLUDE_TERMS):
+            senior_count += 1
             continue
-
-        job["is_senior_tagged"] = False
 
         # === QUALITY CHECK ===
         if len(job.get("title", "")) < 5:
