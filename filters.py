@@ -66,6 +66,11 @@ def filter_jobs(jobs):
         if not any(term in all_text for term in tech_required):
             continue
 
+        # === MUST BE RECENT (max 7 days old) ===
+        date_posted = job.get("date_posted", "")
+        if is_too_old(date_posted):
+            continue
+
         # === EXCLUDE SENIOR ROLES ===
         if any(term in title for term in EXCLUDE_TERMS):
             senior_count += 1
@@ -113,6 +118,43 @@ def filter_jobs(jobs):
         print(f"  📉 Removed {low_score_removed} low-relevance jobs (score < {MIN_SCORE_THRESHOLD})")
 
     return filtered
+
+
+def is_too_old(date_posted):
+    """
+    Check if a job is older than 7 days.
+    Returns True if too old.
+    """
+    if not date_posted or date_posted in ("Recent", ""):
+        return False  # Unknown date = keep it
+
+    date_lower = str(date_posted).lower()
+
+    # Check relative dates like "2 weeks ago", "1 month ago"
+    import re
+    weeks_match = re.search(r"(\d+)\s*week", date_lower)
+    months_match = re.search(r"(\d+)\s*month", date_lower)
+    days_match = re.search(r"(\d+)\s*d", date_lower)
+
+    if months_match:
+        return True  # Anything in months is too old
+    if weeks_match:
+        weeks = int(weeks_match.group(1))
+        return weeks > 1  # More than 1 week = too old
+    if days_match:
+        days = int(days_match.group(1))
+        return days > 7
+
+    # Check absolute dates like "2026-06-15"
+    try:
+        from datetime import datetime, timedelta
+        if re.match(r"\d{4}-\d{2}-\d{2}", date_lower):
+            posted_date = datetime.strptime(date_lower[:10], "%Y-%m-%d")
+            return (datetime.now() - posted_date).days > 7
+    except (ValueError, TypeError):
+        pass
+
+    return False  # Can't parse = keep it
 
 
 def is_scam(text, link, job):

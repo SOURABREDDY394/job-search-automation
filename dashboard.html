@@ -126,16 +126,16 @@
 <body>
     <div class="container">
         <h1>🔍 Job Search Dashboard</h1>
-        <p class="subtitle">International Remote Internships — Last updated: July 10, 2026 at 17:57</p>
+        <p class="subtitle">International Remote Internships — Last updated: July 10, 2026 at 18:05</p>
 
         <div class="stats">
             <div class="stat-card">
                 <h3>Total Jobs</h3>
-                <div class="number blue">152</div>
+                <div class="number blue">37</div>
             </div>
             <div class="stat-card">
                 <h3>New This Run</h3>
-                <div class="number green">152</div>
+                <div class="number green">37</div>
             </div>
             <div class="stat-card">
                 <h3>With Salary Info</h3>
@@ -143,13 +143,13 @@
             </div>
             <div class="stat-card">
                 <h3>Sources</h3>
-                <div class="number">3</div>
+                <div class="number">1</div>
             </div>
         </div>
 
         <div class="filters">
-            <button class="filter-btn active" onclick="filterSource('all')">All (152)</button>
-            <button class="filter-btn" onclick="filterSource('LinkedIn')">LinkedIn (147)</button><button class="filter-btn" onclick="filterSource('RemoteOK')">RemoteOK (4)</button><button class="filter-btn" onclick="filterSource('Jobicy')">Jobicy (1)</button>
+            <button class="filter-btn active" onclick="filterSource('all')">All (37)</button>
+            <button class="filter-btn" onclick="filterSource('LinkedIn')">LinkedIn (37)</button>
             <button class="filter-btn" onclick="filterEntry()">🎯 Intern/Junior Only</button>
             <input type="text" class="search-box" placeholder="Search jobs..." oninput="searchJobs(this.value)">
         </div>
@@ -170,98 +170,33 @@
                 
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-summer-2026-at-novaflow-yc-s25-4391623601?position=1&pageNum=1&refId=7d%2BAaYqUFiqHynwWhTiJzg%3D%3D&trackingId=Oh%2FnMxVUwORq34EKW04xAQ%3D%3D" target="_blank">Machine Learning Engineer Intern - Summer 2026</a>
+                <a href="https://www.linkedin.com/jobs/view/ai-intern-applied-ai-llms-agentic-workflows-at-k-l-gates-4430488059?position=6&pageNum=0&refId=Mou1Wp54HOBjedElPqzwrQ%3D%3D&trackingId=fZQTiu8Ai63sbEPBjDeyWw%3D%3D" target="_blank">AI Intern (Applied AI, LLMs, Agentic Workflows)</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>Novaflow (YC S25)</td>
+            <td>K&L Gates</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">73</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-fullstack-software-engineer-machine-learning-platform-ai-infrastructure-fall-2026-at-tesla-4420216788?position=3&pageNum=1&refId=7d%2BAaYqUFiqHynwWhTiJzg%3D%3D&trackingId=HJQkGhk40%2FIX4zdz3ybGEQ%3D%3D" target="_blank">Internship, Fullstack Software Engineer, Machine Learning Platform, AI Infrastructure (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">71</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-python-intern-at-asb-resources-4437785983?position=1&pageNum=4&refId=uMDMNk%2Fq89HnRZ%2BRKG9KwQ%3D%3D&trackingId=a2re90EWaIWEoTYLIQo4TA%3D%3D" target="_blank">AI Python Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>ASB Resources</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Charlotte, NC</td>
-            <td class="score">71</td>
-        </tr>
-        
-        <tr class="job-row" data-source="Jobicy" data-entry="true">
-            <td class="job-title">
-                <a href="https://jobicy.com/jobs/148205-cams-sustainability-internship" target="_blank">CAMS Sustainability Internship</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>State of Ohio</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">Jobicy</span></td>
-            <td>USA</td>
-            <td class="score">68</td>
-        </tr>
-        
-        <tr class="job-row" data-source="RemoteOK" data-entry="true">
-            <td class="job-title">
-                <a href="https://remoteOK.com/remote-jobs/remote-product-marketing-intern-everlaw-1131454" target="_blank">Product Marketing Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Everlaw</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
-            <td>Oakland</td>
-            <td class="score">66</td>
-        </tr>
-        
-        <tr class="job-row" data-source="RemoteOK" data-entry="true">
-            <td class="job-title">
-                <a href="https://remoteOK.com/remote-jobs/remote-revops-ai-analyst-intern-actian-corporation-1130997" target="_blank">RevOps AI Analyst Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Actian Corporation</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
-            <td>US-Remote</td>
-            <td class="score">66</td>
-        </tr>
-        
-        <tr class="job-row" data-source="RemoteOK" data-entry="true">
-            <td class="job-title">
-                <a href="https://remoteOK.com/remote-jobs/remote-2d-game-design-intern-playpower-labs-1130440" target="_blank">2D Game Design Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Playpower Labs</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
-            <td>Worldwide</td>
+            <td>Pittsburgh, PA</td>
             <td class="score">66</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-scenario-generation-at-plusai-4414365215?position=1&pageNum=0&refId=lbJd42jPv4qTWlO7zlQdjA%3D%3D&trackingId=pSTkBkz2nGaU%2FGabqXzGZg%3D%3D" target="_blank">Machine Learning Engineer Intern - Scenario Generation</a>
+                <a href="https://www.linkedin.com/jobs/view/machine-learning-engineering-internship-at-behaviorai-4437576244?position=3&pageNum=0&refId=4S1ZJZCGssgkO4hGwsCZFQ%3D%3D&trackingId=Uxnpdntcv4P5sFJ92xw25Q%3D%3D" target="_blank">Machine Learning Engineering Internship</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>BehaviorAI</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
+            <td>New York City Metropolitan Area</td>
+            <td class="score">66</td>
+        </tr>
+        
+        <tr class="job-row" data-source="LinkedIn" data-entry="true">
+            <td class="job-title">
+                <a href="https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-at-plusai-4414372158?position=3&pageNum=1&refId=3Uv%2B6r4tmxsAkt0%2B7ZDqow%3D%3D&trackingId=PYsJN%2F260adWLEnH3wbfUA%3D%3D" target="_blank">Machine Learning Engineer Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>PlusAI</td>
@@ -274,332 +209,33 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-at-plusai-4414372158?position=2&pageNum=0&refId=lbJd42jPv4qTWlO7zlQdjA%3D%3D&trackingId=UlGW5od0BexPamY%2B0tavIA%3D%3D" target="_blank">Machine Learning Engineer Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/ai-engineer-intern-usa-at-black-box-4416843595?position=3&pageNum=0&refId=Mou1Wp54HOBjedElPqzwrQ%3D%3D&trackingId=hUM6nqfdR1rX1rH9d8JTDg%3D%3D" target="_blank">AI Engineer Intern - USA</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>PlusAI</td>
+            <td>Black Box</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Santa Clara, CA</td>
-            <td class="score">66</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-computer-vision-multimodal-generative-ai-at-spreeai-4377450311?position=2&pageNum=1&refId=7d%2BAaYqUFiqHynwWhTiJzg%3D%3D&trackingId=RSLU87th5ZKAV%2FlavTqt4Q%3D%3D" target="_blank">Machine Learning Engineer Intern (Computer Vision/Multimodal/Generative AI)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>SPREEAI</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">66</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-automation-intern-at-k1-4384662882?position=7&pageNum=1&refId=7d%2BAaYqUFiqHynwWhTiJzg%3D%3D&trackingId=MevNhqUC8mHYlmhy2lHMgQ%3D%3D" target="_blank">AI Automation Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>K1</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Manhattan Beach, CA</td>
-            <td class="score">66</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-automation-engineer-intern-at-single-grain-start-growing-4376047182?position=5&pageNum=2&refId=GE8au6OtWvV4eSZTEcKWtQ%3D%3D&trackingId=VaDVBGwsJ06CUfFl4SmjrQ%3D%3D" target="_blank">AI Automation Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Single Grain | Start Growing</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Los Angeles, CA</td>
-            <td class="score">66</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/generative-ai-implementation-intern-at-interdigital-inc-4397307533?position=7&pageNum=2&refId=GE8au6OtWvV4eSZTEcKWtQ%3D%3D&trackingId=6%2BRZRt2u7Ntwkkt4RcSfcw%3D%3D" target="_blank">Generative AI Implementation Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>InterDigital, Inc.</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Greater Philadelphia</td>
-            <td class="score">66</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/strategic-student-program-ai-ml-software-engineer-intern-fall-2026-ebs-at-siemens-eda-siemens-digital-industries-software-4425561784?position=2&pageNum=3&refId=9ly7RmR5IZ5rQClB%2BGyPNw%3D%3D&trackingId=TAH26JSOkpbLGcLIjHceJw%3D%3D" target="_blank">Strategic Student Program: AI/ML Software Engineer Intern (Fall 2026; EBS)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Siemens EDA (Siemens Digital Industries Software)</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Maryland Heights, MO</td>
-            <td class="score">66</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-automation-engineer-intern-at-liveramp-4421862059?position=4&pageNum=4&refId=gMTPM5V9urbfb4JRaX6UXw%3D%3D&trackingId=R5KSNFkrlsovLK7m4drJqA%3D%3D" target="_blank">AI/Automation Engineer (Intern)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>LiveRamp</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">66</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-automation-intern-at-north-4419452258?position=4&pageNum=2&refId=o2b45a3XLJWFrjtw%2B4NmFg%3D%3D&trackingId=v5YS2XY98f%2Fyo0Ad2fDLJw%3D%3D" target="_blank">AI Automation Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>North</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, NY</td>
-            <td class="score">66</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/applied-research-intern-nlp-fall-2026-at-nvidia-ai-4433151654?position=8&pageNum=2&refId=hiQY6hNiBSlJZWpmzBhwnQ%3D%3D&trackingId=fyAglt8jO14bDSICd06lvQ%3D%3D" target="_blank">Applied Research Intern, NLP - Fall 2026</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>NVIDIA AI</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Santa Clara, CA</td>
-            <td class="score">66</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-internship-at-allus-ai-yc-f25-4433424831?position=6&pageNum=3&refId=9ly7RmR5IZ5rQClB%2BGyPNw%3D%3D&trackingId=Nq6XyKilGFkeOYzYAjWQFg%3D%3D" target="_blank">Software Engineer Internship</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Allus AI (YC F25)</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Jose, CA</td>
-            <td class="score">63</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-mindfort-ai-yc-x25-4396388231?position=9&pageNum=0&refId=3wvEgKpkOWE5ZQHWAQQyqg%3D%3D&trackingId=nYo2%2F8c%2Bgny5EJ9qzTMvmw%3D%3D" target="_blank">Software Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>MindFort AI (YC X25)</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Los Angeles, CA</td>
-            <td class="score">63</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-python-modernization-automation-at-quantum-design-4438833520?position=8&pageNum=0&refId=3wvEgKpkOWE5ZQHWAQQyqg%3D%3D&trackingId=Lkw9dcFi3t5Uc7gmjKJldA%3D%3D" target="_blank">Software Engineering Intern- Python Modernization & Automation</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Quantum Design</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Diego, CA</td>
-            <td class="score">61</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/backend-engineer-backend-intern-at-axiom-yc-w25-4433647082?position=3&pageNum=0&refId=5VuXDPNSJfT3Aqqisy5xuQ%3D%3D&trackingId=LqQeaCyYu1n0ooNMqKcEyg%3D%3D" target="_blank">Backend Engineer / Backend Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Axiom (YC W25)</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Austin, TX</td>
-            <td class="score">60</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-machine-learning-engineer-factory-software-fall-2026-at-tesla-4435326472?position=3&pageNum=0&refId=lbJd42jPv4qTWlO7zlQdjA%3D%3D&trackingId=AWPFCfx%2FgR7x5zWgOFSvSg%3D%3D" target="_blank">Internship, Machine Learning Engineer, Factory Software (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Fremont, CA</td>
+            <td>Plano, TX</td>
             <td class="score">58</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-rl-engineer-tesla-ai-fall-2026-at-tesla-4435512198?position=4&pageNum=0&refId=lbJd42jPv4qTWlO7zlQdjA%3D%3D&trackingId=sN6TlxZyD9pgmwM5rMxCdA%3D%3D" target="_blank">Internship, RL Engineer, Tesla AI (Fall 2026)</a>
+                <a href="https://www.linkedin.com/jobs/view/ai-intern-dallas-tx-at-black-box-4405580701?position=7&pageNum=0&refId=Mou1Wp54HOBjedElPqzwrQ%3D%3D&trackingId=%2FPHbn%2B1hTyERn2%2Fx8HrWPg%3D%3D" target="_blank">AI Intern - Dallas, TX</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>Tesla</td>
+            <td>Black Box</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
+            <td>Plano, TX</td>
             <td class="score">58</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-ml-engineer-intern-at-melotech-4420665764?position=5&pageNum=0&refId=lbJd42jPv4qTWlO7zlQdjA%3D%3D&trackingId=bi0z3sIB5G4dULl%2FAyNu2Q%3D%3D" target="_blank">AI/ML Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Melotech</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, NY</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-ai-native-%E2%80%94-summer-2026-at-kognitos-4421883950?position=6&pageNum=0&refId=lbJd42jPv4qTWlO7zlQdjA%3D%3D&trackingId=KRva%2B%2BMVgt3k6zdim1gbUw%3D%3D" target="_blank">Software Engineer Intern (AI-Native) — Summer 2026</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Kognitos</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Jose, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/general-hire-machine-learning-engineer-intern-tiktok-recommendation-2026-summer-bs-ms-at-tiktok-4273285373?position=7&pageNum=0&refId=lbJd42jPv4qTWlO7zlQdjA%3D%3D&trackingId=PI2rs9VL3taWS20UOm7heg%3D%3D" target="_blank">(General Hire) Machine Learning Engineer Intern (TikTok-Recommendation) - 2026 Summer (BS/MS)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>TikTok</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Jose, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-software-engineer-ai-data-infrastructure-fall-2026-at-tesla-4421286204?position=8&pageNum=0&refId=lbJd42jPv4qTWlO7zlQdjA%3D%3D&trackingId=7U9jQpK3JnpKPstF5hxSnA%3D%3D" target="_blank">Internship, Software Engineer, AI Data Infrastructure (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-engineer-intern-at-great-question-4418004263?position=9&pageNum=0&refId=lbJd42jPv4qTWlO7zlQdjA%3D%3D&trackingId=4pO01L9272QRR8JCvWBWgA%3D%3D" target="_blank">AI Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Great Question</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-ai-engineer-tesla-ai-fall-2026-at-tesla-4436150497?position=4&pageNum=1&refId=7d%2BAaYqUFiqHynwWhTiJzg%3D%3D&trackingId=DwkoQ0Ip00Wgex7BoaS6wQ%3D%3D" target="_blank">Internship, AI Engineer, Tesla AI (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-data-search-tiktok-recommendation-team-2026-summer-bs-ms-at-tiktok-4282006233?position=6&pageNum=1&refId=7d%2BAaYqUFiqHynwWhTiJzg%3D%3D&trackingId=jLCFz5YBKfuPqYRdvlLtNQ%3D%3D" target="_blank">Machine Learning Engineer Intern (Data-Search-TikTok Recommendation Team) - 2026 Summer (BS/MS)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>TikTok</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Seattle, WA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-tiktok-search-e-commerce-2026-summer-bs-ms-at-tiktok-4280503479?position=8&pageNum=1&refId=7d%2BAaYqUFiqHynwWhTiJzg%3D%3D&trackingId=MTSk7YkZlf7QmuXDSeNxBA%3D%3D" target="_blank">Machine Learning Engineer Intern (TikTok Search E-Commerce) - 2026 Summer (BS/MS)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>TikTok</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Jose, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-global-e-commerce-content-recommendation-2026-summer-bs-ms-at-tiktok-4273280546?position=9&pageNum=1&refId=7d%2BAaYqUFiqHynwWhTiJzg%3D%3D&trackingId=E2MVKdoWsv874%2FyLf9BstA%3D%3D" target="_blank">Machine Learning Engineer Intern - Global E-Commerce Content Recommendation - 2026 Summer (BS/MS)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>TikTok</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Seattle, WA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-developer-intern-at-monolithic-power-systems-inc-4301565384?position=1&pageNum=2&refId=GE8au6OtWvV4eSZTEcKWtQ%3D%3D&trackingId=AVEbFuTNybRNWzAUhubyqg%3D%3D" target="_blank">AI Developer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Monolithic Power Systems, Inc.</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Jose, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-computing-research-intern-at-na%C3%AFve-4436599410?position=2&pageNum=2&refId=GE8au6OtWvV4eSZTEcKWtQ%3D%3D&trackingId=kUauCiO2gHR5X1EivHBlYA%3D%3D" target="_blank">AI Computing Research Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/ai-computing-research-intern-at-na%C3%AFve-4436599410?position=2&pageNum=2&refId=cdh5NTGGlhCBpp%2BkCNCrYQ%3D%3D&trackingId=kUauCiO2gHR5X1EivHBlYA%3D%3D" target="_blank">AI Computing Research Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Naïve</td>
@@ -612,7 +248,7 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-engineering-intern-fall-2026-at-medpace-4407323852?position=6&pageNum=2&refId=GE8au6OtWvV4eSZTEcKWtQ%3D%3D&trackingId=PmeqXk8wdYsGI2bq3yUHTQ%3D%3D" target="_blank">AI Engineering Intern - Fall 2026</a>
+                <a href="https://www.linkedin.com/jobs/view/ai-engineering-intern-fall-2026-at-medpace-4407323852?position=6&pageNum=2&refId=cdh5NTGGlhCBpp%2BkCNCrYQ%3D%3D&trackingId=PmeqXk8wdYsGI2bq3yUHTQ%3D%3D" target="_blank">AI Engineering Intern - Fall 2026</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Medpace</td>
@@ -625,20 +261,7 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/intern-ai-engineer-at-nelnet-4429376101?position=8&pageNum=2&refId=GE8au6OtWvV4eSZTEcKWtQ%3D%3D&trackingId=DGWoJJyfincKIQUCbvayiw%3D%3D" target="_blank">Intern - AI Engineer</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Nelnet</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Lincoln, NE</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-transformation-forward-deployed-engineer-fde-intern-at-datasite-4435603462?position=5&pageNum=3&refId=9ly7RmR5IZ5rQClB%2BGyPNw%3D%3D&trackingId=Q5tj0J6XVeCJK808v0hQEA%3D%3D" target="_blank">AI Transformation / Forward Deployed Engineer (FDE) Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/ai-transformation-forward-deployed-engineer-fde-intern-at-datasite-4435603462?position=5&pageNum=3&refId=diilrbfTpQ93Xnu14lfapg%3D%3D&trackingId=Q5tj0J6XVeCJK808v0hQEA%3D%3D" target="_blank">AI Transformation / Forward Deployed Engineer (FDE) Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Datasite</td>
@@ -651,397 +274,72 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/intern-ai-ml-software-engineer-summer-2026-at-psemi-a-murata-company-4407097043?position=9&pageNum=3&refId=9ly7RmR5IZ5rQClB%2BGyPNw%3D%3D&trackingId=bJK4OzWckRjBKcbDbjDR7g%3D%3D" target="_blank">Intern, AI/ML Software Engineer - Summer 2026</a>
+                <a href="https://www.linkedin.com/jobs/view/ai-analyst-intern-at-lanco-group-of-companies-4435908205?position=5&pageNum=0&refId=4S1ZJZCGssgkO4hGwsCZFQ%3D%3D&trackingId=MsuusOV%2BwbP0mmjfK0Qn2Q%3D%3D" target="_blank">AI Analyst Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>pSemi, A Murata Company</td>
+            <td>Lanco Group of Companies</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Diego, CA</td>
+            <td>Homewood, IL</td>
             <td class="score">58</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-software-machine-learning-engineer-reliability-energy-engineering-fall-2026-at-tesla-4423087934?position=1&pageNum=4&refId=gMTPM5V9urbfb4JRaX6UXw%3D%3D&trackingId=38uHobzqyS6UWJjCn8QLWg%3D%3D" target="_blank">Internship, Software Machine Learning Engineer, Reliability Energy Engineering (Fall 2026)</a>
+                <a href="https://www.linkedin.com/jobs/view/ai-ml-engineering-internship-at-chatgpt-jobs-4433760275?position=7&pageNum=0&refId=4S1ZJZCGssgkO4hGwsCZFQ%3D%3D&trackingId=bf2XqiW3fsFPuKOI6Iyxzg%3D%3D" target="_blank">AI/ML Engineering Internship</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>Tesla</td>
+            <td>ChatGPT Jobs</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
+            <td>Mountain View, CA</td>
             <td class="score">58</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/aiml-engineer-intern-at-akoncagua-ai-4432024910?position=2&pageNum=4&refId=gMTPM5V9urbfb4JRaX6UXw%3D%3D&trackingId=NdrdJxe5R8WYos4yYob42g%3D%3D" target="_blank">AIML Engineer Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/research-scientist-intern-ai-alignment-at-meta-4312031471?position=8&pageNum=0&refId=4S1ZJZCGssgkO4hGwsCZFQ%3D%3D&trackingId=2ONHyUOrM26HdG7gWMLK6w%3D%3D" target="_blank">Research Scientist Intern, AI Alignment</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>Akoncagua AI</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Lakeland, FL</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-gtm-engineer-intern-at-surface-labs-4404253154?position=3&pageNum=4&refId=gMTPM5V9urbfb4JRaX6UXw%3D%3D&trackingId=OVjXq0%2FdHkjH%2BRie3AsyTg%3D%3D" target="_blank">AI GTM Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Surface Labs</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-global-e-commerce-content-recommendation-2026-summer-bs-ms-at-tiktok-4397509379?position=5&pageNum=4&refId=gMTPM5V9urbfb4JRaX6UXw%3D%3D&trackingId=wfPNnkl%2BFUXY4SLCBmniNA%3D%3D" target="_blank">Machine Learning Engineer Intern (Global E-Commerce Content Recommendation) - 2026 Summer (BS/MS)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>TikTok</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Jose, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-app-ads-2026-fall-bs-ms-at-tiktok-4392145998?position=6&pageNum=4&refId=gMTPM5V9urbfb4JRaX6UXw%3D%3D&trackingId=AG6exbk8nIgrWNp0%2BJ7g7Q%3D%3D" target="_blank">Machine Learning Engineer Intern (App Ads) - 2026 Fall (BS/MS)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>TikTok</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Jose, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-ml-modeling-engineer-ai-hardware-fall-2026-at-tesla-4434789414?position=7&pageNum=4&refId=gMTPM5V9urbfb4JRaX6UXw%3D%3D&trackingId=u1p1aEcUR%2Bm8guhJZuEM%2BA%3D%3D" target="_blank">Internship, ML Modeling Engineer, AI Hardware (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/data-ai-engineer-intern-at-jade-global-4414628939?position=8&pageNum=4&refId=gMTPM5V9urbfb4JRaX6UXw%3D%3D&trackingId=mw8bgJoSGEOet6vxTJbN%2BA%3D%3D" target="_blank">Data/Ai Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Jade Global</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Ogden, UT</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-product-engineering-intern-at-shortlist-4437556471?position=9&pageNum=4&refId=gMTPM5V9urbfb4JRaX6UXw%3D%3D&trackingId=MVvU9pFXNhRV9v0o8hgGCg%3D%3D" target="_blank">AI Product Engineering Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Shortlist</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>United States</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-applied-ai-engineer-ai-hardware-fall-2026-at-tesla-4420209873?position=10&pageNum=4&refId=gMTPM5V9urbfb4JRaX6UXw%3D%3D&trackingId=GF2LvoY4AWTRtvv6ydGxhA%3D%3D" target="_blank">Internship, Applied AI Engineer, AI Hardware (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-embedded-software-engineer-ai-platforms-fall-2026-at-tesla-4420228040?position=2&pageNum=2&refId=6I075OtIsicdEbN60LuoNA%3D%3D&trackingId=uMaGtQtDUOpAZJYaYcZB2A%3D%3D" target="_blank">Internship, Embedded Software Engineer, AI Platforms (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/gpu-ai-application-system-software-engineer-intern-system-technologies-and-engineering-2026-summer-bs-ms-at-tiktok-4325372891?position=5&pageNum=2&refId=6I075OtIsicdEbN60LuoNA%3D%3D&trackingId=gSyabVjlkHq72CV%2BjQvx%2Fw%3D%3D" target="_blank">GPU/AI Application System Software Engineer Intern (System Technologies and Engineering) - 2026 Summer (BS/MS)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>TikTok</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Jose, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-ai-infrastructure-training-inference-at-spreeai-4377459206?position=6&pageNum=2&refId=6I075OtIsicdEbN60LuoNA%3D%3D&trackingId=LxOjvn5997%2F2jm32FfE4KA%3D%3D" target="_blank">Software Engineer Intern (AI Infrastructure / Training / Inference)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>SPREEAI</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-software-engineer-ai-hardware-infrastructure-fall-2026-at-tesla-4422661291?position=6&pageNum=3&refId=aV5M3spP3BXBRMrwDGVG7A%3D%3D&trackingId=ZAoC77A42TJ7e91JrJwEkw%3D%3D" target="_blank">Internship, Software Engineer, AI Hardware Infrastructure (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-development-intern-align-ai-at-apprenticely-4431103217?position=3&pageNum=4&refId=hCayqRyBqiK4S0RtvCVP3A%3D%3D&trackingId=cdqVCCXTJThNxuGDJxs2HQ%3D%3D" target="_blank">Software Development Intern-Align AI</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Apprenticely</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Bentonville, AR</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/intern-software-engineer-ai-user-experience-at-rakuten-international-4438299442?position=4&pageNum=2&refId=Um330ZmM2CQP%2FEoFYNisng%3D%3D&trackingId=WFc7hakk%2BnBplQB81Iw%2BZw%3D%3D" target="_blank">Intern - Software Engineer, AI User Experience</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Rakuten International</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Mateo, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/intern-ai-engineer-at-cotiviti-4437591190?position=3&pageNum=2&refId=hiQY6hNiBSlJZWpmzBhwnQ%3D%3D&trackingId=CcvhY0BiPfDKaHBv8nDUXA%3D%3D" target="_blank">Intern - AI Engineer</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Cotiviti</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>United States</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-ml-research-and-development-intern-at-penn-state-university-4393482674?position=4&pageNum=2&refId=hiQY6hNiBSlJZWpmzBhwnQ%3D%3D&trackingId=YX0NGcBNsjN5UjBrH61P6Q%3D%3D" target="_blank">AI/ML Research and Development Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Penn State University</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Reston, VA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-engineering-intern-at-tifin-4423535104?position=5&pageNum=2&refId=hiQY6hNiBSlJZWpmzBhwnQ%3D%3D&trackingId=aBICYA2YGifKBYyuaQa1ow%3D%3D" target="_blank">AI Engineering Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>TIFIN</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Boulder, CO</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ai-ml-scientist-intern-aims-ai-foundations-phd-%E2%80%93-fall-2026-at-netflix-4429448725?position=6&pageNum=2&refId=hiQY6hNiBSlJZWpmzBhwnQ%3D%3D&trackingId=qzmsjxOGtDSQZ1EbdbaoYg%3D%3D" target="_blank">AI/ML Scientist Intern, AIMS AI Foundations (PhD) – Fall 2026</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Netflix</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Los Gatos, CA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/web-application-developer-intern-unpaid-at-breeze-end-technology-llc-4405325643?position=9&pageNum=0&refId=QEwmjBw%2BmijbsyklyrdlSA%3D%3D&trackingId=OJksvD55ILqPSIlCdnk6Nw%3D%3D" target="_blank">Web Application Developer Intern (Unpaid)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Breeze End Technology, LLC</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Alexandria, VA</td>
-            <td class="score">58</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ml-engineer-intern-summer-2026-at-crustdata-yc-f24-4385935314?position=5&pageNum=1&refId=7d%2BAaYqUFiqHynwWhTiJzg%3D%3D&trackingId=R4j%2FZsozeVQDvQ42dD52kw%3D%3D" target="_blank">ML Engineer Intern (Summer 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Crustdata (YC F24)</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">55</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/founding-engineer-intern-at-clera-4438177641?position=1&pageNum=2&refId=6I075OtIsicdEbN60LuoNA%3D%3D&trackingId=e%2FDff9MJm5MvROJ5Ra4%2B4w%3D%3D" target="_blank">Founding Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Clera</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">55</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/engineering-intern-%E2%80%94-summer-fall-2026-at-revise-robotics-yc-w25-4407095756?position=7&pageNum=3&refId=aV5M3spP3BXBRMrwDGVG7A%3D%3D&trackingId=R2cWmvai%2F8Vnk9Olm33ZgA%3D%3D" target="_blank">Engineering Intern — Summer/Fall 2026</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Revise Robotics (YC W25)</td>
+            <td>Meta</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
             <td>New York, NY</td>
-            <td class="score">55</td>
+            <td class="score">58</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/engineering-intern-at-leadbay-yc-f25-4327119436?position=10&pageNum=3&refId=aV5M3spP3BXBRMrwDGVG7A%3D%3D&trackingId=qCyLnoSfk6nlbDB00NedYg%3D%3D" target="_blank">Engineering Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/ai-engineer-intern-at-athena-4435408803?position=10&pageNum=0&refId=4S1ZJZCGssgkO4hGwsCZFQ%3D%3D&trackingId=lWBcjePXNpl3xwGBgHPtPw%3D%3D" target="_blank">AI Engineer Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>Leadbay (YC F25)</td>
+            <td>Athena</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">55</td>
+            <td>United States</td>
+            <td class="score">58</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2026-at-novaflow-yc-s25-4391608719?position=6&pageNum=0&refId=3wvEgKpkOWE5ZQHWAQQyqg%3D%3D&trackingId=cM9td6DZaCeLMci%2FCLY4zA%3D%3D" target="_blank">Software Engineer Intern - Summer 2026</a>
+                <a href="https://www.linkedin.com/jobs/view/deep-learning-intern-at-plusai-4416832802?position=6&pageNum=1&refId=3Uv%2B6r4tmxsAkt0%2B7ZDqow%3D%3D&trackingId=xrvjS2y6bUlHdmjxddD7dQ%3D%3D" target="_blank">Deep Learning Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>Novaflow (YC S25)</td>
+            <td>PlusAI</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">55</td>
+            <td>Santa Clara, CA</td>
+            <td class="score">58</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-forward-deployed-summer-2026-at-crustdata-yc-f24-4321388288?position=7&pageNum=3&refId=fozr7iy79C5v6o3BerXk9w%3D%3D&trackingId=cna7ZpZflgxTFrE8SXYWGw%3D%3D" target="_blank">Software Engineering Intern (Forward Deployed) | Summer 2026</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Crustdata (YC F24)</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">55</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-tiktok-growth-customer-lifecycle-2026-summer-bs-ms-at-tiktok-4377361618?position=1&pageNum=3&refId=NdE4%2FLhG6EkMsFetC3bgng%3D%3D&trackingId=f2i%2BIQL8AUqVjqqukr%2BZSg%3D%3D" target="_blank">Software Engineer Intern (TikTok-Growth-Customer Lifecycle) - 2026 Summer (BS/MS)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>TikTok</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Jose, CA</td>
-            <td class="score">55</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/frontend-engineer-frontend-intern-at-axiom-yc-w25-4433615587?position=1&pageNum=0&refId=kTNTFtXRH3CcALqWKDEk9g%3D%3D&trackingId=ewq%2FmudveWbg7ZH0m8lw5g%3D%3D" target="_blank">Frontend Engineer / Frontend Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Axiom (YC W25)</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Austin, TX</td>
-            <td class="score">55</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/backend-developer-internship-remote-at-springer-capital-4431246726?position=4&pageNum=0&refId=3wvEgKpkOWE5ZQHWAQQyqg%3D%3D&trackingId=bjIFnnPWtIFTpjPA%2B%2BAPqQ%3D%3D" target="_blank">Backend Developer Internship (Remote)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Springer Capital</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Chicago, IL</td>
-            <td class="score">53</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/full-stack-developer-intern-at-cerebrone-ai-4438232833?position=2&pageNum=1&refId=laH1p1QVsh2tfH5nCLtxIQ%3D%3D&trackingId=nE3kvhMBzFpzQE8ZOPHcSA%3D%3D" target="_blank">Full Stack Developer Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/full-stack-developer-intern-at-cerebrone-ai-4438232833?position=3&pageNum=1&refId=wDNNWYwF%2B7gNREJJqOHJfA%3D%3D&trackingId=pcUmPLU4y6W2rt3rDFfYeg%3D%3D" target="_blank">Full Stack Developer Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Cerebrone.ai</td>
@@ -1054,202 +352,20 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/full-stack-engineer-intern-at-plusai-4412893082?position=5&pageNum=3&refId=fozr7iy79C5v6o3BerXk9w%3D%3D&trackingId=czl%2FUNZUWhKJiCO6werJaA%3D%3D" target="_blank">Full Stack Engineer Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/ml-software-development-internship-at-daijobu-ai-4436998316?position=2&pageNum=1&refId=3Uv%2B6r4tmxsAkt0%2B7ZDqow%3D%3D&trackingId=KUVZCFbMgXYdIKt%2FdaN6FQ%3D%3D" target="_blank">ML & Software Development Internship</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>PlusAI</td>
+            <td>Daijobu AI</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Santa Clara, CA</td>
-            <td class="score">53</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/fullstack-engineer-intern-at-meshyai-4403562109?position=9&pageNum=2&refId=Um330ZmM2CQP%2FEoFYNisng%3D%3D&trackingId=5MtPVWjHZm667fQkh%2BjA3A%3D%3D" target="_blank">Fullstack Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>MeshyAI</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco Bay Area</td>
-            <td class="score">53</td>
-        </tr>
-        
-        <tr class="job-row" data-source="RemoteOK" data-entry="true">
-            <td class="job-title">
-                <a href="https://remoteOK.com/remote-jobs/remote-intern-sd-engineer-copious-1131629" target="_blank">Intern SD Engineer</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Copious</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #10b981">RemoteOK</span></td>
-            <td>Maharashtra</td>
+            <td>City of Washington County, DC</td>
             <td class="score">48</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/ml-research-engineer-intern-%E2%80%93-dynamo-guard-dynamo-eval-agentwarden-at-dynamo-ai-4372809424?position=3&pageNum=2&refId=GE8au6OtWvV4eSZTEcKWtQ%3D%3D&trackingId=yi7CXe8tJx58%2FSf4ArSgLg%3D%3D" target="_blank">ML Research Engineer Intern – Dynamo Guard / Dynamo Eval / AgentWarden</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Dynamo AI</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, NY</td>
-            <td class="score">48</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/mobile-software-engineer-intern-%E2%80%94-flagship-apps-ios-android-web-at-spreeai-4377464160?position=3&pageNum=3&refId=aV5M3spP3BXBRMrwDGVG7A%3D%3D&trackingId=Kklt220D7791Os2av2I0Eg%3D%3D" target="_blank">Mobile Software Engineer Intern — Flagship Apps (iOS / Android / Web)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>SPREEAI</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">48</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/java-engineering-intern-fall-2026-at-nvidia-ai-4432700570?position=9&pageNum=3&refId=aV5M3spP3BXBRMrwDGVG7A%3D%3D&trackingId=tWara9YcKVAdz5jMyERjzA%3D%3D" target="_blank">Java Engineering Intern - Fall 2026</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>NVIDIA AI</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Santa Clara, CA</td>
-            <td class="score">48</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-at-rainmaker-technology-corporation-4406677273?position=7&pageNum=0&refId=3wvEgKpkOWE5ZQHWAQQyqg%3D%3D&trackingId=LOPY61xaKoPDCZvghTV1MA%3D%3D" target="_blank">Software Engineering Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Rainmaker Technology Corporation</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>El Segundo, CA</td>
-            <td class="score">48</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-summer-2026-at-arbor-ai-inc-4435485946?position=3&pageNum=4&refId=uMDMNk%2Fq89HnRZ%2BRKG9KwQ%3D%3D&trackingId=rPDebjGONGKQ8cAJTgbr7A%3D%3D" target="_blank">Software Engineering Intern (Summer 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Arbor AI, Inc</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Mountain View, CA</td>
-            <td class="score">48</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-2026-at-creatify-ai-4387258565?position=1&pageNum=0&refId=5boQAMJbOsUGzkRLw5ag9w%3D%3D&trackingId=Cl1mIn5AAWWiQ0EYKVAUkw%3D%3D" target="_blank">Software Engineer Intern 2026</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Creatify AI</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Mountain View, CA</td>
-            <td class="score">48</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/graduate-intern-data-scientist-fall-2026-at-delta-air-lines-4424241500?position=7&pageNum=2&refId=hiQY6hNiBSlJZWpmzBhwnQ%3D%3D&trackingId=h%2B%2FzRtrovdGPGvTrbcknCA%3D%3D" target="_blank">Graduate Intern, Data Scientist (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Delta Air Lines</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Atlanta, GA</td>
-            <td class="score">48</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/full-stack-engineer-intern-at-bud-4268606373?position=1&pageNum=1&refId=gDS6pL01YKOehlywuc2Aog%3D%3D&trackingId=TOwvjOh0ZKducFIcWryLdQ%3D%3D" target="_blank">Full Stack Engineer (Intern)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Bud</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">45</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-backend-focused-winter-2027-at-rippling-4425119216?position=8&pageNum=1&refId=gDS6pL01YKOehlywuc2Aog%3D%3D&trackingId=rTkf1p7iUUcqnE5F6zhcvg%3D%3D" target="_blank">Software Engineer Intern - Backend Focused - Winter 2027</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Rippling</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, NY</td>
-            <td class="score">45</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-backend-intern-fall-2026-at-astranis-space-technologies-4414190107?position=10&pageNum=0&refId=3wvEgKpkOWE5ZQHWAQQyqg%3D%3D&trackingId=ZhK5gVwzCDgE2R%2FCwKPM4A%3D%3D" target="_blank">Software Engineer- Backend Intern (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Astranis Space Technologies</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">45</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/full-stack-engineer-intern-at-phia-4420239028?position=1&pageNum=1&refId=laH1p1QVsh2tfH5nCLtxIQ%3D%3D&trackingId=ghrU6HMkhOjjxWc5mb7a%2BA%3D%3D" target="_blank">Full Stack Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Phia</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, NY</td>
-            <td class="score">45</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/full-stack-developer-intern-remote-opportunity-at-vetsez-4434136255?position=4&pageNum=1&refId=laH1p1QVsh2tfH5nCLtxIQ%3D%3D&trackingId=BrP%2F3XhUrYp8HUrfvual9w%3D%3D" target="_blank">Full Stack Developer Intern (Remote Opportunity)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>VetsEZ</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Dallas, TX</td>
-            <td class="score">45</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/full-stack-engineer-intern-at-concorde-research-technologies-4437085334?position=9&pageNum=1&refId=laH1p1QVsh2tfH5nCLtxIQ%3D%3D&trackingId=T9v8yABCJfG1GRomJRQrqA%3D%3D" target="_blank">Full Stack Engineer Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/full-stack-engineer-intern-at-concorde-research-technologies-4437085334?position=3&pageNum=0&refId=ARlSt6Y2PAF%2BSndX16D22g%3D%3D&trackingId=ZvcRkBeTPfQzKNL%2BJNnQEQ%3D%3D" target="_blank">Full Stack Engineer Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Concorde Research Technologies</td>
@@ -1262,124 +378,7 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/full-stack-software-engineer-intern-winter-2027-at-rippling-4425122198?position=3&pageNum=0&refId=5boQAMJbOsUGzkRLw5ag9w%3D%3D&trackingId=ktFXWi7c9x91VDAS7PBwbg%3D%3D" target="_blank">Full Stack Software Engineer Intern - Winter 2027</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Rippling</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, NY</td>
-            <td class="score">45</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/full-stack-software-engineer-2026-summer-intern-at-symmetry-systems-4428668962?position=8&pageNum=0&refId=5boQAMJbOsUGzkRLw5ag9w%3D%3D&trackingId=6VFdkQTnjcHMe3sLj1w%2BTg%3D%3D" target="_blank">Full Stack Software Engineer - 2026 Summer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Symmetry Systems</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>United States</td>
-            <td class="score">45</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-developer-full-stack-backend-intern-at-teleworld-solutions-4417061608?position=10&pageNum=1&refId=PTIstAEfrre4E4Z50Ts9ug%3D%3D&trackingId=cGExtnYO9bsppr%2BPsBI2yg%3D%3D" target="_blank">Software Developer (Full Stack/Backend) Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>TeleWorld Solutions</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Chantilly, VA</td>
-            <td class="score">45</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/full-stack-engineer-intern-summer-2026-at-safetykit-4214745176?position=8&pageNum=2&refId=Um330ZmM2CQP%2FEoFYNisng%3D%3D&trackingId=udzaQ51UmReJHadAfVxHmg%3D%3D" target="_blank">Full Stack Engineer, Intern Summer 2026</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>SafetyKit</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">45</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/backend-frontend-developer-intern-at-prospect-equities%C2%AE-4432009208?position=2&pageNum=0&refId=Y7pBOxQxxBFFB%2F%2BNSCeOSw%3D%3D&trackingId=qEneplfHNlwiWcGLqjzrBg%3D%3D" target="_blank">Backend / Frontend Developer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Prospect Equities®</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Chicago, IL</td>
-            <td class="score">45</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-fullstack-engineer-build-infrastructure-fall-2026-at-tesla-4420224209?position=8&pageNum=0&refId=Y7pBOxQxxBFFB%2F%2BNSCeOSw%3D%3D&trackingId=A29RdnkYYdM1hmRZSwv6ow%3D%3D" target="_blank">Internship, Fullstack Engineer, Build Infrastructure (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">45</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-bluejay-4266105106?position=3&pageNum=3&refId=9ly7RmR5IZ5rQClB%2BGyPNw%3D%3D&trackingId=Fe6wl2fph%2FDXowp2lzPffA%3D%3D" target="_blank">Software Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Bluejay</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/intern-software-engineering-at-cadence-4414490791?position=1&pageNum=0&refId=5VuXDPNSJfT3Aqqisy5xuQ%3D%3D&trackingId=5JClVcDV3zFO6lvbKYVHFA%3D%3D" target="_blank">Intern-Software Engineering</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Cadence</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Michigan, United States</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-2027-graduates-at-rilla-4427294407?position=2&pageNum=0&refId=5VuXDPNSJfT3Aqqisy5xuQ%3D%3D&trackingId=VH1DMJ0GBfsF0fOLazT3%2BQ%3D%3D" target="_blank">Software Engineering Intern - 2027 Graduates</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Rilla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, NY</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/year-at-palantir-software-engineer-internship-at-palantir-technologies-4414767866?position=4&pageNum=0&refId=5VuXDPNSJfT3Aqqisy5xuQ%3D%3D&trackingId=34iFeirZY4%2BcgoPW7Fd38w%3D%3D" target="_blank">Year at Palantir - Software Engineer, Internship</a>
+                <a href="https://www.linkedin.com/jobs/view/year-at-palantir-software-engineer-internship-at-palantir-technologies-4414767866?position=5&pageNum=0&refId=KoehzEFkCRxIPZfuMmZuRA%3D%3D&trackingId=l1xvVukg%2BfkWPjnVAAdFZg%3D%3D" target="_blank">Year at Palantir - Software Engineer, Internship</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Palantir Technologies</td>
@@ -1392,7 +391,7 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-infrastructure-at-neuralink-4416709802?position=7&pageNum=0&refId=5VuXDPNSJfT3Aqqisy5xuQ%3D%3D&trackingId=XFM22lqMwmDgFUXhKw15mA%3D%3D" target="_blank">Software Engineer Intern, Infrastructure</a>
+                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-infrastructure-at-neuralink-4416709802?position=8&pageNum=0&refId=KoehzEFkCRxIPZfuMmZuRA%3D%3D&trackingId=Q5wr5PUE%2BX9xfD%2ByyHmb4A%3D%3D" target="_blank">Software Engineer Intern, Infrastructure</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Neuralink</td>
@@ -1405,7 +404,7 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-pioneers-4434892627?position=9&pageNum=0&refId=5VuXDPNSJfT3Aqqisy5xuQ%3D%3D&trackingId=fsy5vDfgFpqWs84hrsuaZg%3D%3D" target="_blank">Software Engineer Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-pioneers-4434892627?position=10&pageNum=0&refId=KoehzEFkCRxIPZfuMmZuRA%3D%3D&trackingId=z%2FtIVOAmFzpQPrHF7sk3vQ%3D%3D" target="_blank">Software Engineer Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Pioneers</td>
@@ -1418,7 +417,7 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-internship-fall-2026-at-vital-lyfe-4435901801?position=10&pageNum=0&refId=5VuXDPNSJfT3Aqqisy5xuQ%3D%3D&trackingId=jLisgK%2BJIaAEcNsP%2FRIR8w%3D%3D" target="_blank">Software Engineering Internship - Fall 2026</a>
+                <a href="https://www.linkedin.com/jobs/view/software-engineering-internship-fall-2026-at-vital-lyfe-4435901801?position=1&pageNum=1&refId=n290v6BU4QGndkMHkTV5Bw%3D%3D&trackingId=hXbPcVWR%2BvnfHfcB4nBQkg%3D%3D" target="_blank">Software Engineering Internship - Fall 2026</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Vital Lyfe</td>
@@ -1431,7 +430,7 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-at-dmr-technologies-4435969732?position=2&pageNum=1&refId=gDS6pL01YKOehlywuc2Aog%3D%3D&trackingId=vuw1nMdYuyIJaWp%2ByH%2BuWQ%3D%3D" target="_blank">Software Engineering Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-at-dmr-technologies-4435969732?position=3&pageNum=1&refId=n290v6BU4QGndkMHkTV5Bw%3D%3D&trackingId=O2vh5ZXwXbLmlqXN6ickiQ%3D%3D" target="_blank">Software Engineering Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>DMR Technologies</td>
@@ -1444,7 +443,7 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-sony-electronics-4428718540?position=3&pageNum=1&refId=gDS6pL01YKOehlywuc2Aog%3D%3D&trackingId=C7VJjwlhpJn%2BUsTuqstiVQ%3D%3D" target="_blank">Software Engineer Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-sony-electronics-4428718540?position=4&pageNum=1&refId=n290v6BU4QGndkMHkTV5Bw%3D%3D&trackingId=CUBABmqcjIYIX33nDBVByw%3D%3D" target="_blank">Software Engineer Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Sony Electronics</td>
@@ -1457,62 +456,10 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-internship-at-primed-4432985210?position=4&pageNum=1&refId=gDS6pL01YKOehlywuc2Aog%3D%3D&trackingId=TTzmKh7slLxEGIreixxCjA%3D%3D" target="_blank">Software Engineer Internship</a>
+                <a href="https://www.linkedin.com/jobs/view/year-at-palantir-forward-deployed-software-engineer-internship-usg-at-palantir-technologies-4414769839?position=6&pageNum=2&refId=5Vsu%2BwXOl0NsoCwcFx%2FreQ%3D%3D&trackingId=csdfahhF25cjLwUpVJm8%2BA%3D%3D" target="_blank">Year at Palantir - Forward Deployed Software Engineer, Internship - USG</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>Primed</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Indiana, United States</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-fall-2026-winter-2027-at-skydio-4411225974?position=6&pageNum=1&refId=gDS6pL01YKOehlywuc2Aog%3D%3D&trackingId=1taO4m3%2BYVvObfhfD9bQ7Q%3D%3D" target="_blank">Software Engineer Intern Fall 2026/Winter 2027</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Skydio</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Mateo, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-hillclimb-4429648835?position=7&pageNum=1&refId=gDS6pL01YKOehlywuc2Aog%3D%3D&trackingId=IVWqRpeVY3PiwJbjoQdM0Q%3D%3D" target="_blank">Software Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>hillclimb</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/fall-software-development-intern-at-altom-transport-4422992691?position=9&pageNum=1&refId=gDS6pL01YKOehlywuc2Aog%3D%3D&trackingId=GFSrp5cNTi2ZecjcDkDQgg%3D%3D" target="_blank">Fall Software Development Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Altom Transport</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Hammond, IN</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-2027-interns-at-ellipsis-labs-4391933602?position=10&pageNum=1&refId=gDS6pL01YKOehlywuc2Aog%3D%3D&trackingId=3mydI7JI%2FvAsvrYoM5wWqw%3D%3D" target="_blank">Software Engineer - 2027 Interns</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Ellipsis Labs</td>
+            <td>Palantir Technologies</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
@@ -1522,59 +469,33 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/web-developer-intern-at-gei-consultants-inc-4410822798?position=3&pageNum=2&refId=6I075OtIsicdEbN60LuoNA%3D%3D&trackingId=wcxI%2BwANfGAmYBOtqaHssA%3D%3D" target="_blank">Web Developer Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-at-rieke-4437304731?position=8&pageNum=3&refId=zPHfc3G0MRFqeM6d%2BO2CAw%3D%3D&trackingId=7WvP%2BB2semmER%2B7Z5bC6WQ%3D%3D" target="_blank">Software Engineering Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>GEI Consultants, Inc.</td>
+            <td>Rieke</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Rancho Cordova, CA</td>
+            <td>Bloomfield Hills, MI</td>
             <td class="score">40</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-software-engineer-linux-update-systems-fall-2026-at-tesla-4420214804?position=4&pageNum=2&refId=6I075OtIsicdEbN60LuoNA%3D%3D&trackingId=mXaaaHLwI%2Bb2qPtE7LBM3w%3D%3D" target="_blank">Internship, Software Engineer, Linux Update Systems (Fall 2026)</a>
+                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-fall-2026-at-gemini-4407964482?position=10&pageNum=3&refId=zPHfc3G0MRFqeM6d%2BO2CAw%3D%3D&trackingId=DyoQMrMWLQElhLZ%2Fe2wtPg%3D%3D" target="_blank">Software Engineering Intern (Fall 2026)</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>Tesla</td>
+            <td>Gemini</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
+            <td>New York, NY</td>
             <td class="score">40</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/java-engineering-intern-fall-2026-at-nvidia-4434196179?position=7&pageNum=2&refId=6I075OtIsicdEbN60LuoNA%3D%3D&trackingId=wOK2ppYrjv%2B3kgDzLYLTRg%3D%3D" target="_blank">Java Engineering Intern - Fall 2026</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>NVIDIA</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Santa Clara, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/engineering-intern-at-platform9-4392770187?position=8&pageNum=2&refId=6I075OtIsicdEbN60LuoNA%3D%3D&trackingId=ytyqavoXggjfDroXDr3o9w%3D%3D" target="_blank">Engineering Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Platform9</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Jose, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/intern-embedded-software-engineer-fall-2026-at-persistent-systems-llc-4429410998?position=9&pageNum=2&refId=6I075OtIsicdEbN60LuoNA%3D%3D&trackingId=ZkAmnW9OpqLHxjsKvHhyDA%3D%3D" target="_blank">Intern - Embedded Software Engineer (Fall 2026)</a>
+                <a href="https://www.linkedin.com/jobs/view/intern-software-test-engineer-summer-2026-at-persistent-systems-llc-4361627750?position=2&pageNum=4&refId=jnrXJDpeYgR2Nk7JrUzVKQ%3D%3D&trackingId=AprzEiYbP2VtreQWVs33qw%3D%3D" target="_blank">Intern - Software Test Engineer (Summer 2026)</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Persistent Systems, LLC</td>
@@ -1587,137 +508,7 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-ui-ux-fall-26-intern-at-delsys-4429405360?position=10&pageNum=2&refId=6I075OtIsicdEbN60LuoNA%3D%3D&trackingId=dN1BxDO23crhInbw743sGA%3D%3D" target="_blank">Software Engineer - UI/UX (Fall 26' Intern)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Delsys</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Natick, MA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/intern-embedded-software-engineer-summer-2026-at-persistent-systems-llc-4418409437?position=2&pageNum=3&refId=aV5M3spP3BXBRMrwDGVG7A%3D%3D&trackingId=5mFJUz14lO%2BRRKZKzXZLDg%3D%3D" target="_blank">Intern - Embedded Software Engineer (Summer 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Persistent Systems, LLC</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, NY</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/intern-software-integration-spring-2027-at-mujin-4436389986?position=5&pageNum=3&refId=aV5M3spP3BXBRMrwDGVG7A%3D%3D&trackingId=fQDmPoSFg2t28oHPw2HZcw%3D%3D" target="_blank">Intern - Software Integration (Spring 2027)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Mujin</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Suwanee, GA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-at-layup-parts-4422710201?position=1&pageNum=4&refId=hCayqRyBqiK4S0RtvCVP3A%3D%3D&trackingId=XiD3p91of0jj2NbTQ%2BW1sw%3D%3D" target="_blank">Software Engineering Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Layup Parts</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Huntington Beach, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-development-intern-at-sandhills-global-3988440579?position=2&pageNum=4&refId=hCayqRyBqiK4S0RtvCVP3A%3D%3D&trackingId=l6DDyrI7dX6ZPm5GDgqx4w%3D%3D" target="_blank">Software Development Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Sandhills Global</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Lincoln, NE</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/rust-developer-intern-summer-2026-at-blockhouse-4405242075?position=4&pageNum=4&refId=hCayqRyBqiK4S0RtvCVP3A%3D%3D&trackingId=DX%2BQ5nquAJyXIZXXkHIyxw%3D%3D" target="_blank">Rust Developer Intern (Summer 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Blockhouse</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, NY</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-development-engineer-intern-at-dolby-laboratories-4438852560?position=5&pageNum=4&refId=hCayqRyBqiK4S0RtvCVP3A%3D%3D&trackingId=kqe2L2dm86HqS0hU%2FW0ZHA%3D%3D" target="_blank">Software Development Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Dolby Laboratories</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Sunnyvale, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-at-auctor-4318512358?position=8&pageNum=4&refId=hCayqRyBqiK4S0RtvCVP3A%3D%3D&trackingId=RlIJMyvRYImshvKeL2BVlA%3D%3D" target="_blank">Software Engineering Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Auctor</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, NY</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2027-chicago-at-optiver-4432712463?position=9&pageNum=4&refId=hCayqRyBqiK4S0RtvCVP3A%3D%3D&trackingId=4HvHsX5BNF%2BIuBLx5ldKyA%3D%3D" target="_blank">Software Engineer Intern (Summer 2027 - Chicago)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Optiver</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Chicago, IL</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-bedgear-4286805789?position=10&pageNum=4&refId=hCayqRyBqiK4S0RtvCVP3A%3D%3D&trackingId=bVF%2BJ9rkIYQ7ERFW3JpSVQ%3D%3D" target="_blank">Software Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>BEDGEAR</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Rock Hill, SC</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-object-4438889752?position=2&pageNum=0&refId=3wvEgKpkOWE5ZQHWAQQyqg%3D%3D&trackingId=27lLZeKQR0b95A%2FSAw99tg%3D%3D" target="_blank">Software Engineer - Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-object-4438889752?position=6&pageNum=0&refId=ARlSt6Y2PAF%2BSndX16D22g%3D%3D&trackingId=fIkRC0WEM1NS4cf7og3v4Q%3D%3D" target="_blank">Software Engineer - Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Object</td>
@@ -1730,293 +521,46 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/web-developer-intern-at-the-national-board-for-certified-counselors-4419973622?position=8&pageNum=1&refId=laH1p1QVsh2tfH5nCLtxIQ%3D%3D&trackingId=ms%2Frmn2T37LVZVnk39EEuw%3D%3D" target="_blank">Web Developer Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/engineering-intern-at-blackbird-labs-4408439934?position=9&pageNum=0&refId=ARlSt6Y2PAF%2BSndX16D22g%3D%3D&trackingId=oXc4n%2BNMYfAJYjxoPKfqjA%3D%3D" target="_blank">Engineering Intern</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>The National Board for Certified Counselors</td>
+            <td>Blackbird Labs</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Greensboro, NC</td>
+            <td>New York, United States</td>
             <td class="score">40</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-at-billiontoone-4423001461?position=6&pageNum=3&refId=fozr7iy79C5v6o3BerXk9w%3D%3D&trackingId=QCl4Sg%2BeKwDbmHDEVXb6HQ%3D%3D" target="_blank">Software Engineering Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/devops-engineer-skillbridge-intern-28114-at-enlighten-4400635785?position=7&pageNum=1&refId=wDNNWYwF%2B7gNREJJqOHJfA%3D%3D&trackingId=3%2Bbldw8zgXmOnA7krMPFkg%3D%3D" target="_blank">DevOps Engineer (Skillbridge Intern) - 28114</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>BillionToOne</td>
+            <td>Enlighten</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Menlo Park, CA</td>
+            <td>Augusta, GA</td>
             <td class="score">40</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-at-afterquery-4383447436?position=10&pageNum=3&refId=fozr7iy79C5v6o3BerXk9w%3D%3D&trackingId=GzJHirpdvIRqvTLKFpMjHw%3D%3D" target="_blank">Software Engineering Intern</a>
+                <a href="https://www.linkedin.com/jobs/view/devops-engineer-skillbridge-intern-28114-at-mission-technologies-a-division-of-hii-4398193708?position=10&pageNum=1&refId=wDNNWYwF%2B7gNREJJqOHJfA%3D%3D&trackingId=nraE0PVT9IVgXBzoCPk7eQ%3D%3D" target="_blank">DevOps Engineer (Skillbridge Intern) - 28114</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>AfterQuery</td>
+            <td>Mission Technologies, a division of HII</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
+            <td>Augusta, GA</td>
             <td class="score">40</td>
         </tr>
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/full-stack-engineering-intern-at-dryft-4369459178?position=7&pageNum=4&refId=uMDMNk%2Fq89HnRZ%2BRKG9KwQ%3D%3D&trackingId=srqzuMFvp9bhTIBPCS2NRQ%3D%3D" target="_blank">Full-Stack Engineering Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Dryft</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-summer-2027-at-ctgt-4433425800?position=8&pageNum=4&refId=uMDMNk%2Fq89HnRZ%2BRKG9KwQ%3D%3D&trackingId=NqYQIIGQ%2FtiyfmZneCR2GA%3D%3D" target="_blank">Software Engineering Intern (Summer 2027)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>CTGT</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-software-engineer-energy-engineering-fall-2026-at-tesla-4416589514?position=2&pageNum=0&refId=5boQAMJbOsUGzkRLw5ag9w%3D%3D&trackingId=mSj15jDuUWSoUWSE2RThcA%3D%3D" target="_blank">Internship, Software Engineer, Energy Engineering (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-software-engineer-diagnostics-energy-engineering-fall-2026-at-tesla-4436490134?position=6&pageNum=0&refId=5boQAMJbOsUGzkRLw5ag9w%3D%3D&trackingId=jHnqBx1ypqn7rzLN70hCqg%3D%3D" target="_blank">Internship, Software Engineer Diagnostics, Energy Engineering (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/internship-commercial-ui-software-engineer-energy-engineering-fall-2026-at-tesla-4428109916?position=7&pageNum=0&refId=5boQAMJbOsUGzkRLw5ag9w%3D%3D&trackingId=Cf115O3Rw3JsfFIEwnSj%2Fg%3D%3D" target="_blank">Internship, Commercial UI Software Engineer, Energy Engineering (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Tesla</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/full-stack-developer-intern-music-audio-at-melotech-4396380649?position=4&pageNum=1&refId=PTIstAEfrre4E4Z50Ts9ug%3D%3D&trackingId=DW6WVCio29ykVBPUqkAyyw%3D%3D" target="_blank">Full-Stack Developer Intern, Music & Audio</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Melotech</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, NY</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-fall-2025-summer-2026-at-reacher-4290119965?position=2&pageNum=2&refId=Um330ZmM2CQP%2FEoFYNisng%3D%3D&trackingId=ShToUQtRnjsa9PnK0w164w%3D%3D" target="_blank">Software Engineer Intern (Fall 2025/Summer 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Reacher</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-pylon-4438841696?position=3&pageNum=2&refId=Um330ZmM2CQP%2FEoFYNisng%3D%3D&trackingId=xvNhJGdspIkujiTXw%2Fn%2BSA%3D%3D" target="_blank">Software Engineer, Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Pylon</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-at-arboreal-management-4394227877?position=5&pageNum=2&refId=Um330ZmM2CQP%2FEoFYNisng%3D%3D&trackingId=K9h5XyLVm019Ja1FVyQJIg%3D%3D" target="_blank">Software Engineering Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Arboreal Management</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Seattle, WA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-at-copart-4434010699?position=3&pageNum=3&refId=NdE4%2FLhG6EkMsFetC3bgng%3D%3D&trackingId=%2FNOnccYRE9mDE%2FPxSUK4Ag%3D%3D" target="_blank">Software Engineering Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Copart</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Dallas, TX</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-fall-2026-at-notion-4398329491?position=5&pageNum=3&refId=NdE4%2FLhG6EkMsFetC3bgng%3D%3D&trackingId=2ARiYjCMK%2BuKGVEBiYc%2FKg%3D%3D" target="_blank">Software Engineer Intern (Fall 2026)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Notion</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/fab-software-engineering-intern-fall-at-fab2-4393270104?position=6&pageNum=3&refId=NdE4%2FLhG6EkMsFetC3bgng%3D%3D&trackingId=un43SXe%2BwWH0C%2BJi9rtUqA%3D%3D" target="_blank">Fab Software Engineering Intern - Fall</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Fab2</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-development-summer-internship-at-simoncomputing-inc-4429597015?position=9&pageNum=3&refId=NdE4%2FLhG6EkMsFetC3bgng%3D%3D&trackingId=7p8xRgR%2BcEHtBWZ9%2BHb6DQ%3D%3D" target="_blank">Software Development Summer Internship</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>SimonComputing, Inc.</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Alexandria, VA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/web-developer-software-engineering-intern-at-pulse-commerce-4356640253?position=1&pageNum=4&refId=2dQFzVOuxE5tkdpPUYzq9w%3D%3D&trackingId=azPpuGpw%2BzmXJfiZzcfEtw%3D%3D" target="_blank">Web Developer / Software Engineering Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Pulse Commerce</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Bridgeport, CT</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-simular-4315910915?position=4&pageNum=4&refId=2dQFzVOuxE5tkdpPUYzq9w%3D%3D&trackingId=JeTIG4nzbhe4snY1DgaqWw%3D%3D" target="_blank">Software Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Simular</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Palo Alto, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-summer-2027-at-circleback-4426185180?position=5&pageNum=4&refId=2dQFzVOuxE5tkdpPUYzq9w%3D%3D&trackingId=zZ2RDHpHOzKt3cvBnHGUTw%3D%3D" target="_blank">Software Engineering Intern (Summer 2027)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Circleback</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Francisco, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-at-collaborative-drug-discovery-cdd-vault-4437134585?position=6&pageNum=4&refId=2dQFzVOuxE5tkdpPUYzq9w%3D%3D&trackingId=5Oh70abQXHjczphKih%2BoKQ%3D%3D" target="_blank">Software Engineering Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Collaborative Drug Discovery - CDD Vault</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Newport News, VA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/forward-deployed-software-engineer-internship-at-healthpeak-properties-inc-4363045962?position=7&pageNum=4&refId=2dQFzVOuxE5tkdpPUYzq9w%3D%3D&trackingId=GMobbxtqZGZr0nV3AlNH4Q%3D%3D" target="_blank">Forward Deployed Software Engineer Internship</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Healthpeak Properties, Inc.</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Irvine, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/bci-internship-data-science-team-at-blackrock-neurotech-4437964794?position=9&pageNum=2&refId=hiQY6hNiBSlJZWpmzBhwnQ%3D%3D&trackingId=bACmD279pj9x0Aw1KyYQVQ%3D%3D" target="_blank">BCI Internship - Data Science Team</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Blackrock Neurotech</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Salt Lake City, UT</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/node-js-developer-intern%0A-remote-at-swat-alliance-4438881649?position=3&pageNum=0&refId=Y7pBOxQxxBFFB%2F%2BNSCeOSw%3D%3D&trackingId=caF1e2lknjw0MX5%2BqSxldQ%3D%3D" target="_blank">Node JS Developer Intern
+                <a href="https://www.linkedin.com/jobs/view/node-js-developer-intern%0A-remote-at-swat-alliance-4438881649?position=3&pageNum=0&refId=yPhRh6LGzbKHTY6%2Fy%2B9CLw%3D%3D&trackingId=Rby6ImN0qPA1T9%2BLvqe5Eg%3D%3D" target="_blank">Node JS Developer Intern
 (Remote)</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
@@ -2030,10 +574,10 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-development-engineer-internship-fall-2026-us-at-amazon-4332425058?position=6&pageNum=3&refId=y5km2ca3uSFaIfoIvFgsJg%3D%3D&trackingId=1v%2F1sK3NO4elDrX8OJq5vw%3D%3D" target="_blank">Software Development Engineer Internship - Fall 2026 (US)</a>
+                <a href="https://www.linkedin.com/jobs/view/oci-software-engineer-intern-ovip-at-oracle-4413666230?position=10&pageNum=4&refId=MxwPBBex7C53%2F5yHazcq0w%3D%3D&trackingId=DIs%2BfFdyQKyrKMCJ4LMFFQ%3D%3D" target="_blank">OCI Software Engineer Intern - OVIP</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
-            <td>Amazon</td>
+            <td>Oracle</td>
             <td class="salary">Not specified</td>
             <td class="inr">—</td>
             <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
@@ -2043,72 +587,7 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineer-intern-at-maxima-4336626809?position=7&pageNum=3&refId=y5km2ca3uSFaIfoIvFgsJg%3D%3D&trackingId=RdmdZJURwqvXysHwObrEcg%3D%3D" target="_blank">Software Engineer - Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Maxima</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>San Mateo, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/quantitative-software-developer-intern-at-point72-3724427234?position=8&pageNum=3&refId=y5km2ca3uSFaIfoIvFgsJg%3D%3D&trackingId=s1o1Uk4OznSSiFiyAVdm7w%3D%3D" target="_blank">Quantitative Software Developer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Point72</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>New York, United States</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/frontend-engineer-intern-at-dexmate-4376182749?position=3&pageNum=0&refId=kTNTFtXRH3CcALqWKDEk9g%3D%3D&trackingId=TyntiHP8h%2BH2HxaC7EVTZw%3D%3D" target="_blank">Frontend Engineer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Dexmate</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Fremont, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-frontend-at-moon-4408728865?position=7&pageNum=0&refId=kTNTFtXRH3CcALqWKDEk9g%3D%3D&trackingId=G%2B0%2B5wWGTzpc8%2FQooL%2FvoQ%3D%3D" target="_blank">Software Engineering Intern, Frontend</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Moon</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Glendale, CA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/intern-year-round-frontend-application-engineer-at-navy-federal-credit-union-4416285898?position=2&pageNum=2&refId=%2F6l85g0ZBXIJ%2FwC20sB1sg%3D%3D&trackingId=NARZJ2cAWGbvoA8Z3ijfZg%3D%3D" target="_blank">Intern - Year Round (Frontend Application Engineer)</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>Navy Federal Credit Union</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Vienna, VA</td>
-            <td class="score">40</td>
-        </tr>
-        
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/frontend-engineer-intern-ads-interface-and-platform-2026-summer-bs-ms-at-tiktok-4363783159?position=4&pageNum=2&refId=B%2BtQFGfDoHyZ5sMNN2Qh6Q%3D%3D&trackingId=bgM%2BSDUcl%2BGZr3a1vDMsGQ%3D%3D" target="_blank">Frontend Engineer Intern (Ads Interface and Platform) - 2026 Summer (BS/MS)</a>
+                <a href="https://www.linkedin.com/jobs/view/frontend-engineer-intern-ads-interface-and-platform-2026-summer-bs-ms-at-tiktok-4363783159?position=6&pageNum=1&refId=JmUa6AySY%2BZ%2FqicMSIjq4g%3D%3D&trackingId=VBa8%2BvlNl5bOdLEGNNUbbA%3D%3D" target="_blank">Frontend Engineer Intern (Ads Interface and Platform) - 2026 Summer (BS/MS)</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>TikTok</td>
@@ -2121,7 +600,46 @@
         
         <tr class="job-row" data-source="LinkedIn" data-entry="true">
             <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/intern-%E2%80%93-web-interface-software-engineer-2026-at-motorola-solutions-4409545304?position=6&pageNum=3&refId=tWfHgWRBKx%2BlCgthrc%2BhAw%3D%3D&trackingId=1ZMtF6CdZV2ppzf%2FhSCEuw%3D%3D" target="_blank">Intern – Web Interface Software Engineer (2026)</a>
+                <a href="https://www.linkedin.com/jobs/view/software-engineering-intern-frontend-at-tessera-labs-4395959122?position=2&pageNum=2&refId=9wFuAn9qkWKFBEw1tiTD6A%3D%3D&trackingId=XATMBWNWU%2FtVETHN2tWtvw%3D%3D" target="_blank">Software Engineering Intern, Frontend</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Tessera Labs</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
+            <td>San Jose, CA</td>
+            <td class="score">40</td>
+        </tr>
+        
+        <tr class="job-row" data-source="LinkedIn" data-entry="true">
+            <td class="job-title">
+                <a href="https://www.linkedin.com/jobs/view/onsite-internship-it-web-development-fall-spring-at-international-foundation-of-employee-benefit-plans-ifebp-4434091324?position=8&pageNum=0&refId=ycJtW%2BbihmO0YnIW3VcBoQ%3D%3D&trackingId=KrgJEPpzLZUOAdf4b3QVHQ%3D%3D" target="_blank">Onsite Internship: IT - Web Development (Fall & Spring)</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>International Foundation of Employee Benefit Plans (IFEBP)</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
+            <td>Brookfield, WI</td>
+            <td class="score">40</td>
+        </tr>
+        
+        <tr class="job-row" data-source="LinkedIn" data-entry="true">
+            <td class="job-title">
+                <a href="https://www.linkedin.com/jobs/view/intern-year-round-frontend-application-engineer-at-navy-federal-credit-union-4416406288?position=1&pageNum=1&refId=M93liSJ8ZzbtmOpuzDV6Vw%3D%3D&trackingId=eEvYAuES92A71jExPTgAcw%3D%3D" target="_blank">Intern - Year Round (Frontend Application Engineer)</a>
+                <span class="badge badge-entry">Intern/Junior</span>
+            </td>
+            <td>Navy Federal Credit Union</td>
+            <td class="salary">Not specified</td>
+            <td class="inr">—</td>
+            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
+            <td>Pensacola, FL</td>
+            <td class="score">40</td>
+        </tr>
+        
+        <tr class="job-row" data-source="LinkedIn" data-entry="true">
+            <td class="job-title">
+                <a href="https://www.linkedin.com/jobs/view/intern-%E2%80%93-web-interface-software-engineer-2026-at-motorola-solutions-4409545304?position=9&pageNum=4&refId=ukfd3r%2ByfyUpwXMXOI%2BWwA%3D%3D&trackingId=p4xtY0HBCevz8N%2B8jMx%2Fcg%3D%3D" target="_blank">Intern – Web Interface Software Engineer (2026)</a>
                 <span class="badge badge-entry">Intern/Junior</span>
             </td>
             <td>Motorola Solutions</td>
@@ -2132,24 +650,11 @@
             <td class="score">40</td>
         </tr>
         
-        <tr class="job-row" data-source="LinkedIn" data-entry="true">
-            <td class="job-title">
-                <a href="https://www.linkedin.com/jobs/view/software-developer-intern-at-covantage-credit-union-4421317282?position=2&pageNum=4&refId=qsySKVMAQy%2FZnm9%2Fz15Rzg%3D%3D&trackingId=kL7lKtJEY9T7VEmrrOO7Ng%3D%3D" target="_blank">Software Developer Intern</a>
-                <span class="badge badge-entry">Intern/Junior</span>
-            </td>
-            <td>CoVantage Credit Union</td>
-            <td class="salary">Not specified</td>
-            <td class="inr">—</td>
-            <td><span class="badge" style="background: #6b7280">LinkedIn</span></td>
-            <td>Antigo, WI</td>
-            <td class="score">40</td>
-        </tr>
-        
             </tbody>
         </table>
 
         <p class="footer">
-            Auto-generated by Job Search Automation | 152 jobs from 3 sources
+            Auto-generated by Job Search Automation | 37 jobs from 1 sources
         </p>
     </div>
 
