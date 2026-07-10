@@ -47,6 +47,7 @@ from scrapers.additional_scraper import search_additional_sources
 from scrapers.wellfound_scraper import search_wellfound as search_wellfound_gql
 from scrapers.simplyhired_scraper import search_simplyhired
 from scrapers.github_list_scraper import search_github_lists
+from scrapers.apify_scraper import search_apify_linkedin, search_apify_indeed
 from filters import filter_jobs
 from tracker import find_new_jobs, get_stats
 from notifier import notify_new_jobs
@@ -151,9 +152,27 @@ def run_search():
         print(f"  ✗ {e}\n")
 
     # 10. GitHub Curated List (NVIDIA, Microsoft, TikTok, Cloudflare, Mistral, etc.)
-    print("[10/10] GitHub Curated List (FAANG + Global Companies)...")
+    print("[10/12] GitHub Curated List (Global Internships)...")
     try:
         jobs = search_github_lists(SEARCH_KEYWORDS, MIN_HOURLY_USD)
+        all_jobs.extend(jobs)
+        print(f"  ✓ {len(jobs)} jobs\n")
+    except Exception as e:
+        print(f"  ✗ {e}\n")
+
+    # 11. Apify - LinkedIn (real internships, bypasses anti-bot)
+    print("[11/12] LinkedIn via Apify...")
+    try:
+        jobs = search_apify_linkedin(SEARCH_KEYWORDS, MIN_HOURLY_USD)
+        all_jobs.extend(jobs)
+        print(f"  ✓ {len(jobs)} jobs\n")
+    except Exception as e:
+        print(f"  ✗ {e}\n")
+
+    # 12. Apify - Indeed (real internships)
+    print("[12/12] Indeed via Apify...")
+    try:
+        jobs = search_apify_indeed(SEARCH_KEYWORDS, MIN_HOURLY_USD)
         all_jobs.extend(jobs)
         print(f"  ✓ {len(jobs)} jobs\n")
     except Exception as e:

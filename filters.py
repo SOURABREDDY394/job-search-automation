@@ -49,12 +49,22 @@ def filter_jobs(jobs):
 
         # === ONLY INTERNSHIPS — strict check ===
         # Must have "intern" or "internship" or "trainee" or "co-op" in the TITLE
+        # NO EXCEPTIONS — you're a student, can't do full-time
         intern_terms = ["intern", "internship", "trainee", "co-op", "coop", "apprentice"]
         if not any(term in title for term in intern_terms):
-            # Exception: HN posts often don't have "intern" in title but are open to interns
-            if job.get("source") != "HackerNews":
-                senior_count += 1
-                continue
+            senior_count += 1
+            continue
+
+        # === MUST BE TECH ROLE (no marketing/design/sales garbage) ===
+        tech_required = [
+            "software", "engineer", "developer", "python", "react",
+            "ai", "ml", "machine learning", "data science", "backend",
+            "frontend", "full stack", "fullstack", "web", "devops",
+            "cloud", "api", "nlp", "deep learning", "automation",
+            "llm", "computer", "it", "tech", "coding", "programming",
+        ]
+        if not any(term in all_text for term in tech_required):
+            continue
 
         # === EXCLUDE SENIOR ROLES ===
         if any(term in title for term in EXCLUDE_TERMS):

@@ -1,497 +1,762 @@
 {
-  "hackernews|mixrank|software engineers": {
-    "title": "Software Engineers",
-    "company": "MixRank",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|novaflow (yc s25)|machine learning engineer intern - summer 2026": {
+    "title": "Machine Learning Engineer Intern - Summer 2026",
+    "company": "Novaflow (YC S25)",
+    "first_seen": "2026-07-10 17:57"
   },
-  "hackernews|mwi animal health|remote (us only)": {
-    "title": "Remote (US only)",
-    "company": "MWI Animal Health",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|tesla|internship, fullstack software engineer, machine l": {
+    "title": "Internship, Fullstack Software Engineer, Machine Learning Platform, AI Infrastructure (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
   },
-  "hackernews|make waves|software engineer": {
-    "title": "Software Engineer",
-    "company": "Make Waves",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|aircfo (|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "airCFO (",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|fusionbox|python + typescript engineers": {
-    "title": "Python + TypeScript Engineers",
-    "company": "Fusionbox",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|kanary|full stack engineer": {
-    "title": "Full Stack Engineer",
-    "company": "Kanary",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|wildflower health|junior software engineer": {
-    "title": "Junior Software Engineer",
-    "company": "Wildflower Health",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|asb resources|ai python intern": {
+    "title": "AI Python Intern",
+    "company": "ASB Resources",
+    "first_seen": "2026-07-10 17:57"
   },
   "jobicy|state of ohio|cams sustainability internship": {
     "title": "CAMS Sustainability Internship",
     "company": "State of Ohio",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|vertex inc|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "Vertex Inc",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|puma.tech|remote": {
-    "title": "Remote",
-    "company": "Puma.tech",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|racster|founding engineer": {
-    "title": "Founding Engineer",
-    "company": "Racster",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|talk machine|founding engineers": {
-    "title": "Founding Engineers",
-    "company": "Talk Machine",
-    "first_seen": "2026-07-10 01:52"
+    "first_seen": "2026-07-10 17:57"
   },
   "remoteok|everlaw|product marketing intern": {
     "title": "Product Marketing Intern",
     "company": "Everlaw",
-    "first_seen": "2026-07-10 01:52"
+    "first_seen": "2026-07-10 17:57"
   },
   "remoteok|actian corporation|revops ai analyst intern": {
     "title": "RevOps AI Analyst Intern",
     "company": "Actian Corporation",
-    "first_seen": "2026-07-10 01:52"
+    "first_seen": "2026-07-10 17:57"
   },
   "remoteok|playpower labs|2d game design intern": {
     "title": "2D Game Design Intern",
     "company": "Playpower Labs",
-    "first_seen": "2026-07-10 01:52"
+    "first_seen": "2026-07-10 17:57"
   },
-  "hackernews|noda ai|engineering": {
-    "title": "Engineering",
-    "company": "NODA AI",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|plusai|machine learning engineer intern - scenario genera": {
+    "title": "Machine Learning Engineer Intern - Scenario Generation",
+    "company": "PlusAI",
+    "first_seen": "2026-07-10 17:57"
   },
-  "hackernews|lightsight|forward deployed software engineer (multiple level": {
-    "title": "Forward Deployed Software Engineer (multiple levels)",
-    "company": "LightSight",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|plusai|machine learning engineer intern": {
+    "title": "Machine Learning Engineer Intern",
+    "company": "PlusAI",
+    "first_seen": "2026-07-10 17:57"
   },
-  "hackernews|mainmatter (|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "Mainmatter (",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|spreeai|machine learning engineer intern (computer vision/": {
+    "title": "Machine Learning Engineer Intern (Computer Vision/Multimodal/Generative AI)",
+    "company": "SPREEAI",
+    "first_seen": "2026-07-10 17:57"
   },
-  "hackernews|junior|remote": {
-    "title": "Remote",
-    "company": "Junior",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|k1|ai automation intern": {
+    "title": "AI Automation Intern",
+    "company": "K1",
+    "first_seen": "2026-07-10 17:57"
   },
-  "hackernews|chainsecurity|blockchain security engineer": {
-    "title": "Blockchain Security Engineer",
-    "company": "ChainSecurity",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|single grain | start growing|ai automation engineer intern": {
+    "title": "AI Automation Engineer Intern",
+    "company": "Single Grain | Start Growing",
+    "first_seen": "2026-07-10 17:57"
   },
-  "hackernews|futo|software engineer": {
-    "title": "Software Engineer",
-    "company": "FUTO",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|interdigital, inc.|generative ai implementation intern": {
+    "title": "Generative AI Implementation Intern",
+    "company": "InterDigital, Inc.",
+    "first_seen": "2026-07-10 17:57"
   },
-  "hackernews|any ballparks of what the hour|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "Any ballparks of what the hourly rate is you're ai...",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|siemens eda (siemens digital i|strategic student program: ai/ml software engineer": {
+    "title": "Strategic Student Program: AI/ML Software Engineer Intern (Fall 2026; EBS)",
+    "company": "Siemens EDA (Siemens Digital Industries Software)",
+    "first_seen": "2026-07-10 17:57"
   },
-  "hackernews|temporal technologies|multiple positions in united states": {
-    "title": "Multiple positions in United States",
-    "company": "Temporal Technologies",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|liveramp|ai/automation engineer (intern)": {
+    "title": "AI/Automation Engineer (Intern)",
+    "company": "LiveRamp",
+    "first_seen": "2026-07-10 17:57"
   },
-  "jobicy|1password|developer intern, trust platforms - fall 2026": {
-    "title": "Developer Intern, Trust Platforms - Fall 2026",
-    "company": "1Password",
-    "first_seen": "2026-07-10 01:52"
+  "linkedin|north|ai automation intern": {
+    "title": "AI Automation Intern",
+    "company": "North",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|nvidia ai|applied research intern, nlp - fall 2026": {
+    "title": "Applied Research Intern, NLP - Fall 2026",
+    "company": "NVIDIA AI",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|allus ai (yc f25)|software engineer internship": {
+    "title": "Software Engineer Internship",
+    "company": "Allus AI (YC F25)",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|mindfort ai (yc x25)|software engineer intern": {
+    "title": "Software Engineer Intern",
+    "company": "MindFort AI (YC X25)",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|quantum design|software engineering intern- python modernization ": {
+    "title": "Software Engineering Intern- Python Modernization & Automation",
+    "company": "Quantum Design",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|axiom (yc w25)|backend engineer / backend intern": {
+    "title": "Backend Engineer / Backend Intern",
+    "company": "Axiom (YC W25)",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, machine learning engineer, factory sof": {
+    "title": "Internship, Machine Learning Engineer, Factory Software (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, rl engineer, tesla ai (fall 2026)": {
+    "title": "Internship, RL Engineer, Tesla AI (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|melotech|ai/ml engineer intern": {
+    "title": "AI/ML Engineer Intern",
+    "company": "Melotech",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|kognitos|software engineer intern (ai-native) — summer 2026": {
+    "title": "Software Engineer Intern (AI-Native) — Summer 2026",
+    "company": "Kognitos",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tiktok|(general hire) machine learning engineer intern (t": {
+    "title": "(General Hire) Machine Learning Engineer Intern (TikTok-Recommendation) - 2026 Summer (BS/MS)",
+    "company": "TikTok",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, software engineer, ai data infrastruct": {
+    "title": "Internship, Software Engineer, AI Data Infrastructure (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|great question|ai engineer intern": {
+    "title": "AI Engineer Intern",
+    "company": "Great Question",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, ai engineer, tesla ai (fall 2026)": {
+    "title": "Internship, AI Engineer, Tesla AI (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tiktok|machine learning engineer intern (data-search-tikt": {
+    "title": "Machine Learning Engineer Intern (Data-Search-TikTok Recommendation Team) - 2026 Summer (BS/MS)",
+    "company": "TikTok",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tiktok|machine learning engineer intern (tiktok search e-": {
+    "title": "Machine Learning Engineer Intern (TikTok Search E-Commerce) - 2026 Summer (BS/MS)",
+    "company": "TikTok",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tiktok|machine learning engineer intern - global e-commer": {
+    "title": "Machine Learning Engineer Intern - Global E-Commerce Content Recommendation - 2026 Summer (BS/MS)",
+    "company": "TikTok",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|monolithic power systems, inc.|ai developer intern": {
+    "title": "AI Developer Intern",
+    "company": "Monolithic Power Systems, Inc.",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|naïve|ai computing research intern": {
+    "title": "AI Computing Research Intern",
+    "company": "Naïve",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|medpace|ai engineering intern - fall 2026": {
+    "title": "AI Engineering Intern - Fall 2026",
+    "company": "Medpace",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|nelnet|intern - ai engineer": {
+    "title": "Intern - AI Engineer",
+    "company": "Nelnet",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|datasite|ai transformation / forward deployed engineer (fde": {
+    "title": "AI Transformation / Forward Deployed Engineer (FDE) Intern",
+    "company": "Datasite",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|psemi, a murata company|intern, ai/ml software engineer - summer 2026": {
+    "title": "Intern, AI/ML Software Engineer - Summer 2026",
+    "company": "pSemi, A Murata Company",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, software machine learning engineer, re": {
+    "title": "Internship, Software Machine Learning Engineer, Reliability Energy Engineering (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|akoncagua ai|aiml engineer intern": {
+    "title": "AIML Engineer Intern",
+    "company": "Akoncagua AI",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|surface labs|ai gtm engineer intern": {
+    "title": "AI GTM Engineer Intern",
+    "company": "Surface Labs",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tiktok|machine learning engineer intern (global e-commerc": {
+    "title": "Machine Learning Engineer Intern (Global E-Commerce Content Recommendation) - 2026 Summer (BS/MS)",
+    "company": "TikTok",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tiktok|machine learning engineer intern (app ads) - 2026 ": {
+    "title": "Machine Learning Engineer Intern (App Ads) - 2026 Fall (BS/MS)",
+    "company": "TikTok",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, ml modeling engineer, ai hardware (fal": {
+    "title": "Internship, ML Modeling Engineer, AI Hardware (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|jade global|data/ai engineer intern": {
+    "title": "Data/Ai Engineer Intern",
+    "company": "Jade Global",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|shortlist|ai product engineering intern": {
+    "title": "AI Product Engineering Intern",
+    "company": "Shortlist",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, applied ai engineer, ai hardware (fall": {
+    "title": "Internship, Applied AI Engineer, AI Hardware (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, embedded software engineer, ai platfor": {
+    "title": "Internship, Embedded Software Engineer, AI Platforms (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tiktok|gpu/ai application system software engineer intern": {
+    "title": "GPU/AI Application System Software Engineer Intern (System Technologies and Engineering) - 2026 Summer (BS/MS)",
+    "company": "TikTok",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|spreeai|software engineer intern (ai infrastructure / trai": {
+    "title": "Software Engineer Intern (AI Infrastructure / Training / Inference)",
+    "company": "SPREEAI",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, software engineer, ai hardware infrast": {
+    "title": "Internship, Software Engineer, AI Hardware Infrastructure (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|apprenticely|software development intern-align ai": {
+    "title": "Software Development Intern-Align AI",
+    "company": "Apprenticely",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|rakuten international|intern - software engineer, ai user experience": {
+    "title": "Intern - Software Engineer, AI User Experience",
+    "company": "Rakuten International",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|cotiviti|intern - ai engineer": {
+    "title": "Intern - AI Engineer",
+    "company": "Cotiviti",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|penn state university|ai/ml research and development intern": {
+    "title": "AI/ML Research and Development Intern",
+    "company": "Penn State University",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tifin|ai engineering intern": {
+    "title": "AI Engineering Intern",
+    "company": "TIFIN",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|netflix|ai/ml scientist intern, aims ai foundations (phd) ": {
+    "title": "AI/ML Scientist Intern, AIMS AI Foundations (PhD) – Fall 2026",
+    "company": "Netflix",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|breeze end technology, llc|web application developer intern (unpaid)": {
+    "title": "Web Application Developer Intern (Unpaid)",
+    "company": "Breeze End Technology, LLC",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|crustdata (yc f24)|ml engineer intern (summer 2026)": {
+    "title": "ML Engineer Intern (Summer 2026)",
+    "company": "Crustdata (YC F24)",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|clera|founding engineer intern": {
+    "title": "Founding Engineer Intern",
+    "company": "Clera",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|revise robotics (yc w25)|engineering intern — summer/fall 2026": {
+    "title": "Engineering Intern — Summer/Fall 2026",
+    "company": "Revise Robotics (YC W25)",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|leadbay (yc f25)|engineering intern": {
+    "title": "Engineering Intern",
+    "company": "Leadbay (YC F25)",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|novaflow (yc s25)|software engineer intern - summer 2026": {
+    "title": "Software Engineer Intern - Summer 2026",
+    "company": "Novaflow (YC S25)",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|crustdata (yc f24)|software engineering intern (forward deployed) | s": {
+    "title": "Software Engineering Intern (Forward Deployed) | Summer 2026",
+    "company": "Crustdata (YC F24)",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tiktok|software engineer intern (tiktok-growth-customer l": {
+    "title": "Software Engineer Intern (TikTok-Growth-Customer Lifecycle) - 2026 Summer (BS/MS)",
+    "company": "TikTok",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|axiom (yc w25)|frontend engineer / frontend intern": {
+    "title": "Frontend Engineer / Frontend Intern",
+    "company": "Axiom (YC W25)",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|springer capital|backend developer internship (remote)": {
+    "title": "Backend Developer Internship (Remote)",
+    "company": "Springer Capital",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|cerebrone.ai|full stack developer intern": {
+    "title": "Full Stack Developer Intern",
+    "company": "Cerebrone.ai",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|plusai|full stack engineer intern": {
+    "title": "Full Stack Engineer Intern",
+    "company": "PlusAI",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|meshyai|fullstack engineer intern": {
+    "title": "Fullstack Engineer Intern",
+    "company": "MeshyAI",
+    "first_seen": "2026-07-10 17:57"
   },
   "remoteok|copious|intern sd engineer": {
     "title": "Intern SD Engineer",
     "company": "Copious",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|drswarm|founding engineer (full": {
-    "title": "Founding Engineer (Full",
-    "company": "DrSwarm",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|ashby|yc 19": {
-    "title": "YC 19",
-    "company": "Ashby",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|enveritas (yc s18, non|profit)": {
-    "title": "profit)",
-    "company": "Enveritas (YC S18, non",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|prophet town llc|various software engineering roles": {
-    "title": "Various Software Engineering Roles",
-    "company": "Prophet Town LLC",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|opportunity looking for ai eng|ai engineer": {
-    "title": "Ai Engineer",
-    "company": "Opportunity looking for AI Engineer role Globaly L...",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|i'm ai engineer hands on 2 yea|ai engineer": {
-    "title": "Ai Engineer",
-    "company": "I'm AI Engineer hands on 2 years of experience",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|cora ai|founding full stack": {
-    "title": "Founding Full Stack",
-    "company": "Cora AI",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|logen.io|founding full": {
-    "title": "Founding Full",
-    "company": "Logen.io",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|proxybase (|backend engineer": {
-    "title": "Backend Engineer",
-    "company": "ProxyBase (",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|spacelift|remote (europe)": {
-    "title": "Remote (Europe)",
-    "company": "Spacelift",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|quantum rise|chicago or nyc (preferred), remote for the right c": {
-    "title": "Chicago or NYC (preferred), Remote for the right candidate",
-    "company": "Quantum Rise",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|credo health|full stack engineer": {
-    "title": "Full Stack Engineer",
-    "company": "Credo Health",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|dashdoc|product": {
-    "title": "Product",
-    "company": "Dashdoc",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|artcraft|backend engineer (rust, mysql)": {
-    "title": "Backend Engineer (Rust, MySQL)",
-    "company": "ArtCraft",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|full|disclosure: i am ex": {
-    "title": "disclosure: i am ex",
-    "company": "full",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|syntropic|founding cto": {
-    "title": "Founding CTO",
-    "company": "Syntropic",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|forecasting research institute|data engineer": {
-    "title": "Data Engineer",
-    "company": "Forecasting Research Institute",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|rivet|fullstack engineer": {
-    "title": "Fullstack engineer",
-    "company": "Rivet",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|acme|remote": {
-    "title": "Remote",
-    "company": "Acme",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|kinxshn|forward deployed engineer": {
-    "title": "Forward Deployed Engineer",
-    "company": "Kinxshn",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|runway|trust & safety engineer": {
-    "title": "Trust & Safety Engineer",
-    "company": "Runway",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|ojin|product engineer": {
-    "title": "Product Engineer",
-    "company": "Ojin",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|atria|global remote (almost anywhere) & hybrid nyc": {
-    "title": "Global Remote (almost anywhere) & Hybrid NYC",
-    "company": "Atria",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|areo|remote (eu)": {
-    "title": "Remote (EU)",
-    "company": "AREO",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|delta ai|full stack": {
-    "title": "Full Stack",
-    "company": "Delta AI",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|akkio|us fully remote": {
-    "title": "US Fully Remote",
-    "company": "Akkio",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|splash tech|backend and devops mid": {
-    "title": "Backend and Devops Mid",
-    "company": "Splash Tech",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|blaine, wa|caselight systems inc. (csi)": {
-    "title": "CaseLight Systems Inc. (CSI)",
-    "company": "Blaine, WA",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|nova credit|remote (us, canada)": {
-    "title": "Remote (US, Canada)",
-    "company": "Nova Credit",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|baton|san francisco, ca (hybrid) and remote": {
-    "title": "San Francisco, CA (Hybrid) and Remote",
-    "company": "Baton",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|cardog|toronto, on": {
-    "title": "Toronto, ON",
-    "company": "Cardog",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|rail europe (|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "Rail Europe (",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|railway|infra eng": {
-    "title": "Infra Eng",
-    "company": "Railway",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|mitty|first engineer": {
-    "title": "First Engineer",
-    "company": "Mitty",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|duckduckgo|multiple roles": {
-    "title": "Multiple Roles",
-    "company": "DuckDuckGo",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|ivpn|infrastructure engineer": {
-    "title": "Infrastructure Engineer",
-    "company": "IVPN",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|oscilar.com|em, sr": {
-    "title": "EM, Sr",
-    "company": "Oscilar.com",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|playit|software engineer": {
-    "title": "Software Engineer",
-    "company": "Playit",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|oneleet|multiple roles": {
-    "title": "Multiple Roles",
-    "company": "Oneleet",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|tax rails|ruby on rails engineer": {
-    "title": "Ruby on Rails Engineer",
-    "company": "Tax Rails",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|symetra (symetra.com|careers)": {
-    "title": "careers)",
-    "company": "Symetra (symetra.com",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|assura protect|azure data devops engineer": {
-    "title": "Azure Data DevOps Engineer",
-    "company": "Assura Protect",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|category labs|software engineer": {
-    "title": "Software Engineer",
-    "company": "Category Labs",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|coder|software engineer": {
-    "title": "Software Engineer",
-    "company": "Coder",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|postsilo is a privacy|first company building an ai automation platform f": {
-    "title": "first company building an AI automation platform for profess...",
-    "company": "PostSilo is a privacy",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|relevant healthcare|software engineers (multiple levels)": {
-    "title": "Software Engineers (multiple levels)",
-    "company": "Relevant Healthcare",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|oklo|remote (us) or santa clara or brooklyn": {
-    "title": "Remote (US) or Santa Clara or Brooklyn",
-    "company": "Oklo",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|kog (|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "Kog (",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|perry street software|software engineer": {
-    "title": "Software Engineer",
-    "company": "Perry Street Software",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|preferred networks|tokyo or remote in japan": {
-    "title": "Tokyo or Remote in Japan",
-    "company": "Preferred Networks",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|sudowrite|software engineer": {
-    "title": "Software Engineer",
-    "company": "Sudowrite",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|spruceid|remote (us": {
-    "title": "REMOTE (US",
-    "company": "SpruceID",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|foxglove|onsite (san francisco) + remote": {
-    "title": "Onsite (San Francisco) + Remote",
-    "company": "Foxglove",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|kadoa|software & data engineers": {
-    "title": "Software & Data Engineers",
-    "company": "Kadoa",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|hive|product & engineering roles": {
-    "title": "Product & Engineering roles",
-    "company": "Hive",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|matcha|remote (us": {
-    "title": "REMOTE (US",
-    "company": "Matcha",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|pomelo care|remote (us) first with offices in nyc and sf": {
-    "title": "Remote (US) First with offices in NYC and SF",
-    "company": "Pomelo Care",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|livekit|software engineer": {
-    "title": "Software Engineer",
-    "company": "LiveKit",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|could you explain what \"oklo r|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "Could you explain what \"Oklo requires remote emplo...",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|the role is global, workable j|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "The role is Global, Workable just has terrible set...",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|this dot labs|frontend engineer": {
-    "title": "Frontend Engineer",
-    "company": "This Dot Labs",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|august health (|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "August Health (",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|radical numerics|san francisco, onsite (also tokyo for some roles)": {
-    "title": "San Francisco, ONSITE (also Tokyo for some roles)",
-    "company": "Radical Numerics",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|lago (|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "Lago (",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|phaselaw|product engineer": {
-    "title": "Product Engineer",
-    "company": "Phaselaw",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|i am looking to hire a freelan|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "I am looking to hire a freelancer for a math resea...",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|finn app (|software/ai role": {
-    "title": "Software/AI Role",
-    "company": "FINN App (",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|surge ai (|software engineer": {
-    "title": "Software Engineer",
-    "company": "Surge AI (",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|openrent|london, uk": {
-    "title": "London, UK",
-    "company": "OpenRent",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|ipinfo.io|data engineer": {
-    "title": "Data Engineer",
-    "company": "IPinfo.io",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|redline solutions is hiring a |level c#": {
-    "title": "level C#",
-    "company": "RedLine Solutions is hiring a fully remote mid",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|ditto|engineering & product": {
-    "title": "Engineering & Product",
-    "company": "Ditto",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|better stack|software engineer": {
-    "title": "Software Engineer",
-    "company": "Better Stack",
-    "first_seen": "2026-07-10 01:52"
-  },
-  "hackernews|sphinx defense|software engineering": {
-    "title": "Software Engineering",
-    "company": "Sphinx Defense",
-    "first_seen": "2026-07-10 01:52"
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|dynamo ai|ml research engineer intern – dynamo guard / dynam": {
+    "title": "ML Research Engineer Intern – Dynamo Guard / Dynamo Eval / AgentWarden",
+    "company": "Dynamo AI",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|spreeai|mobile software engineer intern — flagship apps (i": {
+    "title": "Mobile Software Engineer Intern — Flagship Apps (iOS / Android / Web)",
+    "company": "SPREEAI",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|nvidia ai|java engineering intern - fall 2026": {
+    "title": "Java Engineering Intern - Fall 2026",
+    "company": "NVIDIA AI",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|rainmaker technology corporati|software engineering intern": {
+    "title": "Software Engineering Intern",
+    "company": "Rainmaker Technology Corporation",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|arbor ai, inc|software engineering intern (summer 2026)": {
+    "title": "Software Engineering Intern (Summer 2026)",
+    "company": "Arbor AI, Inc",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|creatify ai|software engineer intern 2026": {
+    "title": "Software Engineer Intern 2026",
+    "company": "Creatify AI",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|delta air lines|graduate intern, data scientist (fall 2026)": {
+    "title": "Graduate Intern, Data Scientist (Fall 2026)",
+    "company": "Delta Air Lines",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|bud|full stack engineer (intern)": {
+    "title": "Full Stack Engineer (Intern)",
+    "company": "Bud",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|rippling|software engineer intern - backend focused - winte": {
+    "title": "Software Engineer Intern - Backend Focused - Winter 2027",
+    "company": "Rippling",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|astranis space technologies|software engineer- backend intern (fall 2026)": {
+    "title": "Software Engineer- Backend Intern (Fall 2026)",
+    "company": "Astranis Space Technologies",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|phia|full stack engineer intern": {
+    "title": "Full Stack Engineer Intern",
+    "company": "Phia",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|vetsez|full stack developer intern (remote opportunity)": {
+    "title": "Full Stack Developer Intern (Remote Opportunity)",
+    "company": "VetsEZ",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|concorde research technologies|full stack engineer intern": {
+    "title": "Full Stack Engineer Intern",
+    "company": "Concorde Research Technologies",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|rippling|full stack software engineer intern - winter 2027": {
+    "title": "Full Stack Software Engineer Intern - Winter 2027",
+    "company": "Rippling",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|symmetry systems|full stack software engineer - 2026 summer intern": {
+    "title": "Full Stack Software Engineer - 2026 Summer Intern",
+    "company": "Symmetry Systems",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|teleworld solutions|software developer (full stack/backend) intern": {
+    "title": "Software Developer (Full Stack/Backend) Intern",
+    "company": "TeleWorld Solutions",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|safetykit|full stack engineer, intern summer 2026": {
+    "title": "Full Stack Engineer, Intern Summer 2026",
+    "company": "SafetyKit",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|prospect equities®|backend / frontend developer intern": {
+    "title": "Backend / Frontend Developer Intern",
+    "company": "Prospect Equities®",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, fullstack engineer, build infrastructu": {
+    "title": "Internship, Fullstack Engineer, Build Infrastructure (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|bluejay|software engineer intern": {
+    "title": "Software Engineer Intern",
+    "company": "Bluejay",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|cadence|intern-software engineering": {
+    "title": "Intern-Software Engineering",
+    "company": "Cadence",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|rilla|software engineering intern - 2027 graduates": {
+    "title": "Software Engineering Intern - 2027 Graduates",
+    "company": "Rilla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|palantir technologies|year at palantir - software engineer, internship": {
+    "title": "Year at Palantir - Software Engineer, Internship",
+    "company": "Palantir Technologies",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|neuralink|software engineer intern, infrastructure": {
+    "title": "Software Engineer Intern, Infrastructure",
+    "company": "Neuralink",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|pioneers|software engineer intern": {
+    "title": "Software Engineer Intern",
+    "company": "Pioneers",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|vital lyfe|software engineering internship - fall 2026": {
+    "title": "Software Engineering Internship - Fall 2026",
+    "company": "Vital Lyfe",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|dmr technologies|software engineering intern": {
+    "title": "Software Engineering Intern",
+    "company": "DMR Technologies",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|sony electronics|software engineer intern": {
+    "title": "Software Engineer Intern",
+    "company": "Sony Electronics",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|primed|software engineer internship": {
+    "title": "Software Engineer Internship",
+    "company": "Primed",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|skydio|software engineer intern fall 2026/winter 2027": {
+    "title": "Software Engineer Intern Fall 2026/Winter 2027",
+    "company": "Skydio",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|hillclimb|software engineer intern": {
+    "title": "Software Engineer Intern",
+    "company": "hillclimb",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|altom transport|fall software development intern": {
+    "title": "Fall Software Development Intern",
+    "company": "Altom Transport",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|ellipsis labs|software engineer - 2027 interns": {
+    "title": "Software Engineer - 2027 Interns",
+    "company": "Ellipsis Labs",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|gei consultants, inc.|web developer intern": {
+    "title": "Web Developer Intern",
+    "company": "GEI Consultants, Inc.",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, software engineer, linux update system": {
+    "title": "Internship, Software Engineer, Linux Update Systems (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|nvidia|java engineering intern - fall 2026": {
+    "title": "Java Engineering Intern - Fall 2026",
+    "company": "NVIDIA",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|platform9|engineering intern": {
+    "title": "Engineering Intern",
+    "company": "Platform9",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|persistent systems, llc|intern - embedded software engineer (fall 2026)": {
+    "title": "Intern - Embedded Software Engineer (Fall 2026)",
+    "company": "Persistent Systems, LLC",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|delsys|software engineer - ui/ux (fall 26' intern)": {
+    "title": "Software Engineer - UI/UX (Fall 26' Intern)",
+    "company": "Delsys",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|persistent systems, llc|intern - embedded software engineer (summer 2026)": {
+    "title": "Intern - Embedded Software Engineer (Summer 2026)",
+    "company": "Persistent Systems, LLC",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|mujin|intern - software integration (spring 2027)": {
+    "title": "Intern - Software Integration (Spring 2027)",
+    "company": "Mujin",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|layup parts|software engineering intern": {
+    "title": "Software Engineering Intern",
+    "company": "Layup Parts",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|sandhills global|software development intern": {
+    "title": "Software Development Intern",
+    "company": "Sandhills Global",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|blockhouse|rust developer intern (summer 2026)": {
+    "title": "Rust Developer Intern (Summer 2026)",
+    "company": "Blockhouse",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|dolby laboratories|software development engineer intern": {
+    "title": "Software Development Engineer Intern",
+    "company": "Dolby Laboratories",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|auctor|software engineering intern": {
+    "title": "Software Engineering Intern",
+    "company": "Auctor",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|optiver|software engineer intern (summer 2027 - chicago)": {
+    "title": "Software Engineer Intern (Summer 2027 - Chicago)",
+    "company": "Optiver",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|bedgear|software engineer intern": {
+    "title": "Software Engineer Intern",
+    "company": "BEDGEAR",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|object|software engineer - intern": {
+    "title": "Software Engineer - Intern",
+    "company": "Object",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|the national board for certifi|web developer intern": {
+    "title": "Web Developer Intern",
+    "company": "The National Board for Certified Counselors",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|billiontoone|software engineering intern": {
+    "title": "Software Engineering Intern",
+    "company": "BillionToOne",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|afterquery|software engineering intern": {
+    "title": "Software Engineering Intern",
+    "company": "AfterQuery",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|dryft|full-stack engineering intern": {
+    "title": "Full-Stack Engineering Intern",
+    "company": "Dryft",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|ctgt|software engineering intern (summer 2027)": {
+    "title": "Software Engineering Intern (Summer 2027)",
+    "company": "CTGT",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, software engineer, energy engineering ": {
+    "title": "Internship, Software Engineer, Energy Engineering (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, software engineer diagnostics, energy ": {
+    "title": "Internship, Software Engineer Diagnostics, Energy Engineering (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tesla|internship, commercial ui software engineer, energ": {
+    "title": "Internship, Commercial UI Software Engineer, Energy Engineering (Fall 2026)",
+    "company": "Tesla",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|melotech|full-stack developer intern, music & audio": {
+    "title": "Full-Stack Developer Intern, Music & Audio",
+    "company": "Melotech",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|reacher|software engineer intern (fall 2025/summer 2026)": {
+    "title": "Software Engineer Intern (Fall 2025/Summer 2026)",
+    "company": "Reacher",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|pylon|software engineer, intern": {
+    "title": "Software Engineer, Intern",
+    "company": "Pylon",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|arboreal management|software engineering intern": {
+    "title": "Software Engineering Intern",
+    "company": "Arboreal Management",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|copart|software engineering intern": {
+    "title": "Software Engineering Intern",
+    "company": "Copart",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|notion|software engineer intern (fall 2026)": {
+    "title": "Software Engineer Intern (Fall 2026)",
+    "company": "Notion",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|fab2|fab software engineering intern - fall": {
+    "title": "Fab Software Engineering Intern - Fall",
+    "company": "Fab2",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|simoncomputing, inc.|software development summer internship": {
+    "title": "Software Development Summer Internship",
+    "company": "SimonComputing, Inc.",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|pulse commerce|web developer / software engineering intern": {
+    "title": "Web Developer / Software Engineering Intern",
+    "company": "Pulse Commerce",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|simular|software engineer intern": {
+    "title": "Software Engineer Intern",
+    "company": "Simular",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|circleback|software engineering intern (summer 2027)": {
+    "title": "Software Engineering Intern (Summer 2027)",
+    "company": "Circleback",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|collaborative drug discovery -|software engineering intern": {
+    "title": "Software Engineering Intern",
+    "company": "Collaborative Drug Discovery - CDD Vault",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|healthpeak properties, inc.|forward deployed software engineer internship": {
+    "title": "Forward Deployed Software Engineer Internship",
+    "company": "Healthpeak Properties, Inc.",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|blackrock neurotech|bci internship - data science team": {
+    "title": "BCI Internship - Data Science Team",
+    "company": "Blackrock Neurotech",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|swat alliance|node js developer intern\n(remote)": {
+    "title": "Node JS Developer Intern\n(Remote)",
+    "company": "SWAT Alliance",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|amazon|software development engineer internship - fall 20": {
+    "title": "Software Development Engineer Internship - Fall 2026 (US)",
+    "company": "Amazon",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|maxima|software engineer - intern": {
+    "title": "Software Engineer - Intern",
+    "company": "Maxima",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|point72|quantitative software developer intern": {
+    "title": "Quantitative Software Developer Intern",
+    "company": "Point72",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|dexmate|frontend engineer intern": {
+    "title": "Frontend Engineer Intern",
+    "company": "Dexmate",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|moon|software engineering intern, frontend": {
+    "title": "Software Engineering Intern, Frontend",
+    "company": "Moon",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|navy federal credit union|intern - year round (frontend application engineer": {
+    "title": "Intern - Year Round (Frontend Application Engineer)",
+    "company": "Navy Federal Credit Union",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|tiktok|frontend engineer intern (ads interface and platfo": {
+    "title": "Frontend Engineer Intern (Ads Interface and Platform) - 2026 Summer (BS/MS)",
+    "company": "TikTok",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|motorola solutions|intern – web interface software engineer (2026)": {
+    "title": "Intern – Web Interface Software Engineer (2026)",
+    "company": "Motorola Solutions",
+    "first_seen": "2026-07-10 17:57"
+  },
+  "linkedin|covantage credit union|software developer intern": {
+    "title": "Software Developer Intern",
+    "company": "CoVantage Credit Union",
+    "first_seen": "2026-07-10 17:57"
   }
 }

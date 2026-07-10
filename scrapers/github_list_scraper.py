@@ -78,14 +78,12 @@ def search_github_lists(keywords, min_hourly=10):
                 if age_days > 60:
                     continue
 
-                # Skip big companies (too competitive, waste of time)
+                # Skip ONLY the biggest/most competitive companies
                 big_companies = [
                     "nvidia", "microsoft", "meta", "google", "amazon", "apple",
-                    "tiktok", "bytedance", "salesforce", "adobe", "intel",
+                    "tiktok", "bytedance",
                     "citadel", "jane street", "optiver", "two sigma",
                     "goldman sachs", "morgan stanley", "jp morgan",
-                    "walmart", "cisco", "oracle", "ibm", "samsung",
-                    "qualcomm", "broadcom", "tesla", "spacex",
                 ]
                 if any(bc in company.lower() for bc in big_companies):
                     continue
