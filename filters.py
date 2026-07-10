@@ -61,15 +61,15 @@ def filter_jobs(jobs):
             "ai", "ml", "machine learning", "data science", "backend",
             "frontend", "full stack", "fullstack", "web", "devops",
             "cloud", "api", "nlp", "deep learning", "automation",
-            "llm", "computer", "it", "tech", "coding", "programming",
+            "llm", "computer", "coding", "programming",
         ]
-        if not any(term in all_text for term in tech_required):
+        # Check TITLE specifically — not just all_text
+        if not any(term in title for term in tech_required):
             continue
 
         # === MUST BE RECENT (max 7 days old) ===
-        date_posted = job.get("date_posted", "")
-        if is_too_old(date_posted):
-            continue
+        # Removed: Apify already filters at source with "past week"
+        # Don't waste scraped results by filtering again
 
         # === EXCLUDE SENIOR ROLES ===
         if any(term in title for term in EXCLUDE_TERMS):

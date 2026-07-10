@@ -21,16 +21,13 @@ APIFY_BASE = "https://api.apify.com/v2"
 # This actor works on free tier, no login needed
 LINKEDIN_ACTOR = "gopalakrishnan~linkedin-jobs"
 
-# Precise queries matching your profile
+# Precise queries — fewer but broader to save credits
+# Each run costs ~$0.04, so 4 queries = $0.16 per full run
 SEARCH_QUERIES = [
-    "AI engineer intern",
+    "AI intern",
     "software engineer intern",
-    "python developer internship",
+    "machine learning intern",
     "full stack intern",
-    "machine learning internship",
-    "backend developer internship",
-    "react developer internship",
-    "web developer internship",
 ]
 
 # Title MUST have one of these to be relevant
@@ -66,10 +63,10 @@ def search_apify_linkedin(keywords, min_hourly=10):
             input_data = {
                 "keywords": query,
                 "location": "",
-                "datePosted": "past week",
+                "datePosted": "past month",
                 "jobType": "internship",
                 "remote": "remote",
-                "limit": 25,
+                "limit": 50,
             }
 
             response = requests.post(run_url, params=params, json=input_data, timeout=30)
@@ -173,6 +170,14 @@ def parse_linkedin_job(item):
         # No senior
         if any(t in title_lower for t in ["senior", "sr.", "lead", "principal", "staff"]):
             return None
+
+        # Must be remote
+        loc_lower = str(location).lower() if location else ""
+        if location and "remote" not in loc_lower and "anywhere" not in loc_lower:
+            # Check if it's a specific city without remote mention — skip it
+            if any(city in loc_lower for city in ["new york", "san francisco", "chicago", "boston", "seattle", "austin", "los angeles"]):
+                if "remote" not in loc_lower:
+                    return None
 
         # Extract tags
         found_techs = [t for t in REQUIRED_TECH if t in title_lower]
